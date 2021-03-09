@@ -73,7 +73,7 @@ val patternSpecifications = checkovChecks.map(check =>
   Pattern.Specification(
     Pattern.Id(check.Id),
     Result.Level.Warn,
-    Pattern.Category.BestPractice,
+    Pattern.Category.ErrorProne,
     None
   )
 )
