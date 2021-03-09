@@ -1,0 +1,1874 @@
+{
+  "name" : "checkov",
+  "version" : "1.0.831",
+  "patterns" : [ {
+    "patternId" : "CKV_AWS_1",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_10",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_100",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_101",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_102",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_103",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_104",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_105",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_11",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_12",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_13",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_14",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_15",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_16",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_17",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_18",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_19",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_2",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_20",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_21",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_22",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_23",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_24",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_25",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_26",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_27",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_28",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_29",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_3",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_30",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_31",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_32",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_33",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_34",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_35",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_36",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_37",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_38",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_39",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_40",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_41",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_42",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_43",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_44",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_45",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_46",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_47",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_48",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_49",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_5",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_50",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_51",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_52",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_53",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_54",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_55",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_56",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_57",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_58",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_59",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_6",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_60",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_61",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_62",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_63",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_64",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_65",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_66",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_67",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_68",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_69",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_7",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_70",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_71",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_72",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_73",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_74",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_75",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_76",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_77",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_78",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_79",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_8",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_80",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_81",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_82",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_83",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_84",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_85",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_86",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_87",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_88",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_89",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_9",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_90",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_91",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_92",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_93",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_94",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_95",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_96",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_97",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_98",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AWS_99",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AZURE_1",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AZURE_10",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AZURE_11",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AZURE_12",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AZURE_13",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AZURE_14",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AZURE_15",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AZURE_16",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AZURE_17",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AZURE_18",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AZURE_19",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AZURE_2",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AZURE_20",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AZURE_21",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AZURE_22",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AZURE_23",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AZURE_24",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AZURE_25",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AZURE_26",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AZURE_27",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AZURE_28",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AZURE_29",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AZURE_3",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AZURE_30",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AZURE_31",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AZURE_32",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AZURE_33",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AZURE_34",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AZURE_35",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AZURE_36",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AZURE_37",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AZURE_38",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AZURE_39",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AZURE_4",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AZURE_40",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AZURE_41",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AZURE_42",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AZURE_43",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AZURE_44",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AZURE_45",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AZURE_46",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AZURE_47",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AZURE_48",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AZURE_49",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AZURE_5",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AZURE_50",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AZURE_51",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AZURE_52",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AZURE_53",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AZURE_54",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AZURE_6",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AZURE_7",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AZURE_8",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_AZURE_9",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_1",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_10",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_11",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_12",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_13",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_14",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_15",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_16",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_17",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_18",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_19",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_2",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_20",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_21",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_22",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_23",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_24",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_25",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_26",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_27",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_28",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_29",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_3",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_30",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_31",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_32",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_33",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_34",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_35",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_36",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_37",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_38",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_39",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_4",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_40",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_41",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_42",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_43",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_44",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_45",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_46",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_47",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_48",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_49",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_50",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_51",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_52",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_53",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_54",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_55",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_56",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_57",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_58",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_59",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_6",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_60",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_62",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_63",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_7",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_8",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GCP_9",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_GIT_1",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_K8S_1",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_K8S_10",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_K8S_11",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_K8S_12",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_K8S_13",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_K8S_14",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_K8S_15",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_K8S_16",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_K8S_17",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_K8S_18",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_K8S_19",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_K8S_2",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_K8S_20",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_K8S_21",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_K8S_22",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_K8S_23",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_K8S_24",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_K8S_25",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_K8S_26",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_K8S_27",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_K8S_28",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_K8S_29",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_K8S_3",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_K8S_30",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_K8S_31",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_K8S_32",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_K8S_33",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_K8S_34",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_K8S_35",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_K8S_36",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_K8S_37",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_K8S_38",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_K8S_39",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_K8S_4",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_K8S_40",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_K8S_41",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_K8S_42",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_K8S_43",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_K8S_44",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_K8S_45",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_K8S_5",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_K8S_6",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_K8S_7",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_K8S_8",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_K8S_9",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_LIN_1",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  }, {
+    "patternId" : "CKV_LIN_2",
+    "level" : "Warning",
+    "category" : "BestPractice",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : false
+  } ]
+}

@@ -1,0 +1,46 @@
+version: 2.1
+
+orbs:
+  codacy: codacy/base@5.2.1
+  codacy_plugins_test: codacy/plugins-test@0.15.3
+
+workflows:
+  version: 2
+  compile_test_deploy:
+    jobs:
+      - codacy/checkout_and_version
+      - codacy/sbt:
+          name: build_docker_and_test
+          cmd: |
+            # Install Ammonite
+            sudo sh -c '(echo "#!/usr/bin/env sh" && curl -L https://github.com/lihaoyi/Ammonite/releases/download/2.3.8/2.13-2.3.8) > /usr/local/bin/amm && chmod +x /usr/local/bin/amm'
+            # Install Checkov
+            sudo apt-get update
+            sudo apt-get install python3-pip
+            pip3 install -r requirements.txt
+            # Run doc-generator
+            amm doc-generator.sc
+            # Build and same Docker image
+            docker build -t $CIRCLE_PROJECT_REPONAME:latest .
+            docker save --output docker-image.tar $CIRCLE_PROJECT_REPONAME:latest
+          persist_to_workspace: true
+          requires:
+            - codacy/checkout_and_version
+      - codacy_plugins_test/run:
+          name: plugins_test
+          run_multiple_tests: true
+          requires:
+            - build_docker_and_test
+      - codacy/publish_docker:
+          context: CodacyDocker
+          requires:
+            - plugins_test
+          filters:
+            branches:
+              only:
+                - master
+      - codacy/tag_version:
+          name: tag_version
+          context: CodacyAWS
+          requires:
+            - codacy/publish_docker

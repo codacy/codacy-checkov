@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<checkstyle version="4.3">
+    <file name="k8s.yaml">
+        <error source="CKV_K8S_38" line="1" message="Ensure that Service Account Tokens are only mounted where necessary" severity="warning" />
+        <error source="CKV_K8S_21" line="1" message="The default namespace should not be used" severity="warning" />
+    </file>
+</checkstyle>
