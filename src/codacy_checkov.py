@@ -33,15 +33,6 @@ class Result:
         self.patternId = patternId
         self.line = line
 
-    def __str__(self):
-        return f'Result({self.filename},{self.message},{self.patternId},{self.line})'
-
-    def __repr__(self):
-        return self.__str__()
-
-    def __eq__(self, o):
-        return self.filename == o.filename and self.message == o.message and self.patternId == o.patternId and self.line == o.line
-
 
 def toJson(obj): return jsonpickle.encode(obj, unpicklable=False)
 
