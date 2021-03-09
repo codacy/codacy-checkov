@@ -24,6 +24,25 @@ val version = os
   }
   .get
 
+/*
+ * We want to parse an output like this:
+ * 
+ * |    | Id        | Type     | Entity                                | Policy                                                                              | IaC            |
+ * |----|-----------|----------|---------------------------------------|-------------------------------------------------------------------------------------|----------------|
+ * |  0 | CKV_AWS_1 | data     | aws_iam_policy_document               | Ensure IAM policies that allow full "*-*" administrative privileges are not created | Terraform      |
+ * |  1 | CKV_AWS_1 | resource | serverless_aws                        | Ensure IAM policies that allow full "*-*" administrative privileges are not created | serverless     |
+ * |  2 | CKV_AWS_2 | resource | aws_lb_listener                       | Ensure ALB protocol is HTTPS                                                        | Terraform      |
+ * |  3 | CKV_AWS_2 | resource | AWS::ElasticLoadBalancingV2::Listener | Ensure ALB protocol is HTTPS                                                        | Cloudformation |
+ * |  4 | CKV_AWS_3 | resource | aws_ebs_volume                        | Ensure all data stored in the EBS is securely encrypted                             | Terraform      |
+ * |  5 | CKV_AWS_3 | resource | AWS::EC2::Volume                      | Ensure all data stored in the EBS is securely encrypted                             | Cloudformation |
+ * |  6 | CKV_AWS_5 | resource | aws_elasticsearch_domain              | Ensure all data stored in the Elasticsearch is securely encrypted at rest           | Terraform      |
+ * |  7 | CKV_AWS_5 | resource | AWS::Elasticsearch::Domain            | Ensure all data stored in the Elasticsearch is securely encrypted at rest           | Cloudformation |
+ * |  8 | CKV_AWS_6 | resource | aws_elasticsearch_domain              | Ensure all Elasticsearch has node-to-node encryption enabled                        | Terraform      |
+ *
+ * The idea is to split by `|` character, and take the fields by column index, based on the indexes of the head.
+ * This allows the doc-generator to be robust in case they insert new columns in the middle. 
+ */
+
 val lines = os
   .proc("checkov", "-l")
   .call()
