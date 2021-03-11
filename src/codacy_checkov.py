@@ -34,6 +34,12 @@ class Result:
         self.line = line
 
 
+class Configuration:
+    def __init__(self, rules, files):
+        self.rules = rules
+        self.files = files
+
+
 def toJson(obj): return jsonpickle.encode(obj, unpicklable=False)
 
 
@@ -43,9 +49,12 @@ def readJsonFile(path):
     return res
 
 
-def runCheckov(rules):
+def runCheckov(config):
+    file_opts = ([opt for f in config.files for opt in ['-f', f]]
+                 if config.files
+                 else ['-d', '.'])
     process = Popen(
-        ['checkov', '-d', '.', '-o', 'json', '--quiet'] + rules,
+        ['checkov', '-o', 'json', '--quiet'] + file_opts + config.rules,
         stdout=PIPE,
         cwd='/src'
     )
@@ -54,23 +63,22 @@ def runCheckov(rules):
 
 
 def readConfiguration():
-    try:
-        configuration = readJsonFile('/.codacyrc')
-        tools = [t for t in configuration['tools'] if t['name'] == 'checkov']
-        if tools and 'patterns' in tools[0]:
-            checkov = tools[0]
-            rules = ['-c', ','.join([p['patternId']
-                                     for p in checkov.get('patterns') or []])]
-        else:
-            rules = []
-        return rules
-    except Exception:
-        return []
+    configuration = readJsonFile('/.codacyrc')
+    files = configuration.get('files') or []
+    tools = [t for t in configuration['tools'] if t['name'] == 'checkov']
+    if tools and 'patterns' in tools[0]:
+        checkov = tools[0]
+        rules = ['-c', ','.join([p['patternId']
+                                 for p in checkov.get('patterns') or []])]
+    else:
+        rules = []
+
+    return Configuration(rules, files)
 
 
 def runTool():
-    rules = readConfiguration()
-    reports = runCheckov(rules)
+    config = readConfiguration()
+    reports = runCheckov(config)
 
     # Checkov can either return a single report or a list of reports
     # for every "check_type" ("kubernetes", "serverless", etc.)

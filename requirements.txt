@@ -1,2 +1,2 @@
-checkov==1.0.831
+checkov==1.0.838
 jsonpickle==1.4.1

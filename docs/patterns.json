@@ -1,6 +1,6 @@
 {
   "name" : "checkov",
-  "version" : "1.0.831",
+  "version" : "1.0.838",
   "patterns" : [ {
     "patternId" : "CKV_AWS_1",
     "level" : "Warning",
