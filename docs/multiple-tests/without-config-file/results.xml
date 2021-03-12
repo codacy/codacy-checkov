@@ -4,4 +4,8 @@
         <error source="CKV_K8S_38" line="1" message="Ensure that Service Account Tokens are only mounted where necessary" severity="warning" />
         <error source="CKV_K8S_21" line="1" message="The default namespace should not be used" severity="warning" />
     </file>
+    <file name="terraform.tf">
+        <error source="CKV_AWS_1" line="1" message="Ensure IAM policies that allow full &quot;*-*&quot; administrative privileges are not created" severity="warning" />
+        <error source="CKV_AWS_49" line="1" message="Ensure no IAM policies documents allow &quot;*&quot; as a statement's actions" severity="warning" />
+    </file>
 </checkstyle>
