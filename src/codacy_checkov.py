@@ -54,7 +54,8 @@ def runCheckov(config):
                  if config.files
                  else ['-d', '.'])
     process = Popen(
-        ['checkov', '-o', 'json', '--quiet'] + file_opts + config.rules,
+        ['checkov', '-o', 'json', '--quiet', '--no-guide',
+         '--skip-fixes', '--skip-suppressions'] + file_opts + config.rules,
         stdout=PIPE,
         cwd='/src'
     )
