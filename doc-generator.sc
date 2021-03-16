@@ -12,7 +12,8 @@ case class CheckovCheck(
     Type: String,
     Entity: String,
     Policy: String,
-    IaC: String
+    IaC: String,
+    Url: Option[String]
 )
 implicit val checkovCheckRW = upickle.default.macroRW[CheckovCheck]
 
@@ -26,7 +27,7 @@ val version = os
 
 /*
  * We want to parse an output like this:
- * 
+ *
  * |    | Id        | Type     | Entity                                | Policy                                                                              | IaC            |
  * |----|-----------|----------|---------------------------------------|-------------------------------------------------------------------------------------|----------------|
  * |  0 | CKV_AWS_1 | data     | aws_iam_policy_document               | Ensure IAM policies that allow full "*-*" administrative privileges are not created | Terraform      |
@@ -40,7 +41,7 @@ val version = os
  * |  8 | CKV_AWS_6 | resource | aws_elasticsearch_domain              | Ensure all Elasticsearch has node-to-node encryption enabled                        | Terraform      |
  *
  * The idea is to split by `|` character, and take the fields by column index, based on the indexes of the head.
- * This allows the doc-generator to be robust in case they insert new columns in the middle. 
+ * This allows the doc-generator to be robust in case they insert new columns in the middle.
  */
 
 val lines = os
@@ -51,21 +52,29 @@ val lines = os
   .view
   .map(_.split('|').drop(2).map(_.trim))
 
+val guidelines = ujson
+  .read(
+    requests.get("https://www.bridgecrew.cloud/api/v1/guidelines").text
+  )("guidelines")
+  .obj
+
 val ids = lines.head.zipWithIndex.toMap
 
 val checkovChecks =
   lines
     .drop(2)
     .filter(_.length == ids.size)
-    .map(arr =>
+    .map { arr =>
+      val id = arr(ids("Id"));
       CheckovCheck(
-        Id = arr(ids("Id")),
+        Id = id,
         Type = arr(ids("Type")),
         Entity = arr(ids("Entity")),
         Policy = arr(ids("Policy")),
-        IaC = arr(ids("IaC"))
+        IaC = arr(ids("IaC")),
+        Url = guidelines.get(id).map(_.str)
       )
-    )
+    }
     .groupBy(_.Id)
     .map(_._2.head)
 
@@ -98,7 +107,18 @@ os.write.over(
   os.pwd / "docs" / "patterns.json",
   Json.prettyPrint(Json.toJson(specification)) + "\n"
 )
+
+os.remove.all(os.pwd / "docs" / "description")
+
 os.write.over(
   os.pwd / "docs" / "description" / "description.json",
-  Json.prettyPrint(Json.toJson(patternDescriptions)) + "\n"
+  Json.prettyPrint(Json.toJson(patternDescriptions)) + "\n",
+  createFolders = true
 )
+
+checkovChecks.collect { case CheckovCheck(id, _, _, _, _, Some(url)) =>
+  os.write.over(
+    os.pwd / "docs" / "description" / s"$id.md",
+    s"""More information [here]($url).\n"""
+  )
+}
