@@ -74,7 +74,8 @@ val patternSpecifications = checkovChecks.map(check =>
     Pattern.Id(check.Id),
     Result.Level.Warn,
     Pattern.Category.ErrorProne,
-    None
+    subcategory = None,
+    enabled = true
   )
 )
 
