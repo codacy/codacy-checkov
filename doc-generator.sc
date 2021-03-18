@@ -78,8 +78,67 @@ val checkovChecks =
     .groupBy(_.Id)
     .map(_._2.head)
 
-def categoryAndSubcategoryOf(patternId: String): (Pattern.Category, Option[Pattern.Subcategory]) = patternId match {
-  case "CKV_AWS_24" => (Pattern.Category.Security, None)
+def categoryAndSubcategoryOf(
+    patternId: String
+): (Pattern.Category, Option[Pattern.Subcategory]) = patternId match {
+  case "CKV_AWS_1" | "CKV_AWS_9" | "CKV_AWS_10" | "CKV_AWS_11" | "CKV_AWS_12" |
+      "CKV_AWS_13" | "CKV_AWS_14" | "CKV_AWS_15" | "CKV_AWS_17" | "CKV_AWS_20" |
+      "CKV_AWS_32" | "CKV_AWS_33" | "CKV_AWS_40" | "CKV_AWS_41" | "CKV_AWS_45" |
+      "CKV_AWS_46" | "CKV_AWS_53" | "CKV_AWS_54" | "CKV_AWS_55" | "CKV_AWS_56" |
+      "CKV_AWS_57" | "CKV_AWS_59" | "CKV_AWS_60" | "CKV_AWS_61" | "CKV_AWS_62" |
+      "CKV_AWS_63" | "CKV_AWS_70" | "CKV_AWS_87" | "CKV_AWS_89" | "CKV_AWS_93" |
+      "CKV_AWS_100" | "CKV_AWS_107" | "CKV_AWS_108" | "CKV_AWS_109" |
+      "CKV_AWS_110" | "CKV_AWS_111" | "CKV_AZURE_1" | "CKV_AZURE_5" |
+      "CKV_AZURE_9" | "CKV_AZURE_10" | "CKV_AZURE_11" | "CKV_AZURE_13" |
+      "CKV_AZURE_34" | "CKV_AZURE_35" | "CKV_AZURE_39" | "CKV_AZURE_40" |
+      "CKV_AZURE_41" | "CKV_AZURE_42" | "CKV_AZURE_45" | "CKV_AZURE_49" |
+      "CKV_GCP_2" | "CKV_GCP_3" | "CKV_GCP_4" | "CKV_GCP_7" | "CKV_GCP_11" |
+      "CKV_GCP_13" | "CKV_GCP_15" | "CKV_GCP_18" | "CKV_GCP_19" | "CKV_GCP_28" |
+      "CKV_GCP_29" | "CKV_GCP_41" | "CKV_GCP_42" | "CKV_GCP_44" | "CKV_GCP_45" |
+      "CKV_GCP_46" | "CKV_GCP_47" | "CKV_GCP_48" | "CKV_GCP_49" | "CKV_GCP_60" |
+      "CKV_GIT_1" | "CKV_LIN_1" | "CKV_LIN_2" =>
+    (Pattern.Category.Security, Some(Pattern.Subcategory.Auth))
+  case "CKV_AWS_18" | "CKV_AWS_35" | "CKV_AWS_36" | "CKV_AWS_37" |
+      "CKV_AWS_48" | "CKV_AWS_50" | "CKV_AWS_66" | "CKV_AWS_67" | "CKV_AWS_71" |
+      "CKV_AWS_75" | "CKV_AWS_76" | "CKV_AWS_80" | "CKV_AWS_84" | "CKV_AWS_85" |
+      "CKV_AWS_86" | "CKV_AWS_91" | "CKV_AWS_92" | "CKV_AWS_95" |
+      "CKV_AWS_101" | "CKV_AWS_104" | "CKV_AZURE_4" | "CKV_AZURE_12" |
+      "CKV_AZURE_23" | "CKV_AZURE_24" | "CKV_AZURE_25" | "CKV_AZURE_26" |
+      "CKV_AZURE_27" | "CKV_AZURE_30" | "CKV_AZURE_31" | "CKV_AZURE_33" |
+      "CKV_AZURE_37" | "CKV_AZURE_38" | "CKV_GCP_1" | "CKV_GCP_26" |
+      "CKV_GCP_51" | "CKV_GCP_52" | "CKV_GCP_53" | "CKV_GCP_54" | "CKV_GCP_55" |
+      "CKV_GCP_56" | "CKV_GCP_57" | "CKV_GCP_62" | "CKV_GCP_63" =>
+    (Pattern.Category.Security, Some(Pattern.Subcategory.Visibility))
+  case "CKV_AWS_2" | "CKV_AWS_3" | "CKV_AWS_5" | "CKV_AWS_6" | "CKV_AWS_7" |
+      "CKV_AWS_8" | "CKV_AWS_16" | "CKV_AWS_19" | "CKV_AWS_22" | "CKV_AWS_24" |
+      "CKV_AWS_25" | "CKV_AWS_26" | "CKV_AWS_27" | "CKV_AWS_29" | "CKV_AWS_30" |
+      "CKV_AWS_31" | "CKV_AWS_32" | "CKV_AWS_33" | "CKV_AWS_34" | "CKV_AWS_38" |
+      "CKV_AWS_39" | "CKV_AWS_42" | "CKV_AWS_43" | "CKV_AWS_44" | "CKV_AWS_47" |
+      "CKV_AWS_49" | "CKV_AWS_51" | "CKV_AWS_52" | "CKV_AWS_58" | "CKV_AWS_64" |
+      "CKV_AWS_68" | "CKV_AWS_69" | "CKV_AWS_72" | "CKV_AWS_74" | "CKV_AWS_77" |
+      "CKV_AWS_78" | "CKV_AWS_79" | "CKV_AWS_81" | "CKV_AWS_82" | "CKV_AWS_83" |
+      "CKV_AWS_88" | "CKV_AWS_90" | "CKV_AWS_94" | "CKV_AWS_96" | "CKV_AWS_97" |
+      "CKV_AWS_98" | "CKV_AWS_99" | "CKV_AWS_102" | "CKV_AWS_103" |
+      "CKV_AWS_105" | "CKV_AWS_106" | "CKV_AZURE_2" | "CKV_AZURE_3" |
+      "CKV_AZURE_6" | "CKV_AZURE_7" | "CKV_AZURE_8" | "CKV_AZURE_14" |
+      "CKV_AZURE_15" | "CKV_AZURE_16" | "CKV_AZURE_17" | "CKV_AZURE_18" |
+      "CKV_AZURE_20" | "CKV_AZURE_21" | "CKV_AZURE_22" | "CKV_AZURE_28" |
+      "CKV_AZURE_29" | "CKV_AZURE_36" | "CKV_AZURE_43" | "CKV_AZURE_44" |
+      "CKV_AZURE_47" | "CKV_AZURE_48" | "CKV_AZURE_50" | "CKV_AZURE_52" |
+      "CKV_AZURE_53" | "CKV_AZURE_54" | "CKV_GCP_6" | "CKV_GCP_8" |
+      "CKV_GCP_12" | "CKV_GCP_16" | "CKV_GCP_17" | "CKV_GCP_20" | "CKV_GCP_24" |
+      "CKV_GCP_25" | "CKV_GCP_27" | "CKV_GCP_30" | "CKV_GCP_31" | "CKV_GCP_32" |
+      "CKV_GCP_33" | "CKV_GCP_34" | "CKV_GCP_35" | "CKV_GCP_36" | "CKV_GCP_37" |
+      "CKV_GCP_38" | "CKV_GCP_39" | "CKV_GCP_40" | "CKV_GCP_43" | "CKV_GCP_50" |
+      "CKV_GCP_58" | "CKV_GCP_59" | "CKV_K8S_1" | "CKV_K8S_2" | "CKV_K8S_3" |
+      "CKV_K8S_4" | "CKV_K8S_5" | "CKV_K8S_6" | "CKV_K8S_7" | "CKV_K8S_16" |
+      "CKV_K8S_17" | "CKV_K8S_18" | "CKV_K8S_19" | "CKV_K8S_20" | "CKV_K8S_21" |
+      "CKV_K8S_22" | "CKV_K8S_23" | "CKV_K8S_24" | "CKV_K8S_25" | "CKV_K8S_26" |
+      "CKV_K8S_27" | "CKV_K8S_28" | "CKV_K8S_29" | "CKV_K8S_30" | "CKV_K8S_31" |
+      "CKV_K8S_32" | "CKV_K8S_33" | "CKV_K8S_34" | "CKV_K8S_35" | "CKV_K8S_36" |
+      "CKV_K8S_37" | "CKV_K8S_38" | "CKV_K8S_39" | "CKV_K8S_41" | "CKV_K8S_42" |
+      "CKV_K8S_43" | "CKV_K8S_44" | "CKV_K8S_45" =>
+    (Pattern.Category.Security, None)
   case _ => (Pattern.Category.ErrorProne, None)
 }
 
