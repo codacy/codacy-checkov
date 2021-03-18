@@ -64,9 +64,13 @@ def runCheckov(config):
 
 
 def readConfiguration():
-    configuration = readJsonFile('/.codacyrc')
+    try:
+        configuration = readJsonFile('/.codacyrc')
+    except:
+        configuration = {}
     files = configuration.get('files') or []
-    tools = [t for t in configuration['tools'] if t['name'] == 'checkov']
+    tools = [t for t in configuration.get('tools') or []
+             if t.get('name') == 'checkov']
     if tools and 'patterns' in tools[0]:
         checkov = tools[0]
         rules = ['-c', ','.join([p['patternId']
