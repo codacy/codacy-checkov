@@ -54,7 +54,7 @@ val lines = os
 
 val guidelines = ujson
   .read(
-    requests.get("https://www.bridgecrew.cloud/api/v1/guidelines").text
+    requests.get("https://www.bridgecrew.cloud/api/v1/guidelines")
   )("guidelines")
   .obj
 
@@ -119,6 +119,6 @@ os.write.over(
 checkovChecks.collect { case CheckovCheck(id, _, _, _, _, Some(url)) =>
   os.write.over(
     os.pwd / "docs" / "description" / s"$id.md",
-    s"""More information [here]($url).\n"""
+    s"More information [here]($url).\n"
   )
 }
