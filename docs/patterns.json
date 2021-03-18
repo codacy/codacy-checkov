@@ -158,7 +158,7 @@
   }, {
     "patternId" : "CKV_AWS_24",
     "level" : "Warning",
-    "category" : "ErrorProne",
+    "category" : "Security",
     "parameters" : [ ],
     "languages" : [ ],
     "enabled" : true

@@ -78,15 +78,21 @@ val checkovChecks =
     .groupBy(_.Id)
     .map(_._2.head)
 
-val patternSpecifications = checkovChecks.map(check =>
+def categoryAndSubcategoryOf(patternId: String): (Pattern.Category, Option[Pattern.Subcategory]) = patternId match {
+  case "CKV_AWS_24" => (Pattern.Category.Security, None)
+  case _ => (Pattern.Category.ErrorProne, None)
+}
+
+val patternSpecifications = checkovChecks.map { check =>
+  val (category, subcategory) = categoryAndSubcategoryOf(check.Id)
   Pattern.Specification(
     Pattern.Id(check.Id),
     Result.Level.Warn,
-    Pattern.Category.ErrorProne,
-    subcategory = None,
+    category,
+    subcategory,
     enabled = true
   )
-)
+}
 
 val patternDescriptions = checkovChecks.map(check =>
   Pattern.Description(
