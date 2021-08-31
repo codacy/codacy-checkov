@@ -96,7 +96,7 @@ def runTool():
     for report in reports:
         failed_checks = report['results']['failed_checks']
         for failed_check in failed_checks:
-            filename = failed_check['file_path'].lstrip('/')
+            filename = failed_check['repo_file_path'].lstrip('/')
             res.append(Result(
                 filename, failed_check['check_name'], failed_check['check_id'], failed_check['file_line_range'][0]))
     return res

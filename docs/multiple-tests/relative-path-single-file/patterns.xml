@@ -1,0 +1,6 @@
+<module name="root">
+    <module name="CKV_AWS_1" />
+    <module name="CKV_AWS_49" />
+    <module name="CKV_K8S_21" />
+    <module name="CKV_K8S_38" />
+</module>

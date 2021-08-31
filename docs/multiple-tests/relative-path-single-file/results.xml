@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<checkstyle version="4.3">
+    <file name="a-folder/terraform.tf">
+        <error source="CKV_AWS_1" line="1" message="Ensure IAM policies that allow full &quot;*-*&quot; administrative privileges are not created" severity="warning" />
+        <error source="CKV_AWS_49" line="1" message="Ensure no IAM policies documents allow &quot;*&quot; as a statement's actions" severity="warning" />
+    </file>
+</checkstyle>
