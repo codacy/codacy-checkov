@@ -7,8 +7,6 @@ COPY docs /docs
 RUN useradd -u 2004 -U docker && \
     mkdir /home/docker && \
     chown -R docker:docker /docs /home/docker
-ENV BC_API_URL foo
-ENV LOG_LEVEL ERROR
 USER docker
 ENTRYPOINT [ "python" ]
 CMD [ "codacy_checkov.py" ]
