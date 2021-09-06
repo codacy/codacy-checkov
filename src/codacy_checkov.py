@@ -53,11 +53,16 @@ def runCheckov(config):
     file_opts = ([opt for f in config.files for opt in ['-f', f]]
                  if config.files
                  else ['-d', '.'])
+    processEnv = os.environ.copy()
+    processEnv["http_proxy"] = "http://foo"
+    processEnv["https_proxy"] = "https://foo"
+
     process = Popen(
         ['checkov', '-o', 'json', '--quiet', '--no-guide',
          '--skip-fixes', '--skip-suppressions'] + file_opts + config.rules,
         stdout=PIPE,
-        cwd='/src'
+        cwd='/src',
+        env=processEnv
     )
     stdout = process.communicate()[0]
     return json.loads(stdout.decode('utf-8'))
