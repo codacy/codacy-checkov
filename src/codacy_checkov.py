@@ -56,6 +56,8 @@ def runCheckov(config):
     processEnv = os.environ.copy()
     processEnv["http_proxy"] = "http://foo"
     processEnv["https_proxy"] = "https://foo"
+    processEnv["BC_API_URL"] = "foo"
+    processEnv["LOG_LEVEL"] = "ERROR"
 
     process = Popen(
         ['checkov', '-o', 'json', '--quiet', '--no-guide',
