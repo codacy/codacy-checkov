@@ -1,2 +1,4 @@
 .ammonite
 .mypy_cache
+*~
+.*.swp
