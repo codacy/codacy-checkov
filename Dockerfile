@@ -2,7 +2,7 @@ FROM python:3.9-alpine
 WORKDIR /workdir
 COPY requirements.txt ./
 RUN apk update && \
-    apk install --no-cache helm && \
+    apk add --no-cache helm && \
     pip install --no-cache-dir -r requirements.txt
 COPY src/*.py ./
 COPY docs /docs
