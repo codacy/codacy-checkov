@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <checkstyle version="4.3">
     <file name="deployment.yaml">
-        <error source="CKV_K8S_38" line="3" message="Ensure that Service Account Tokens are only mounted where necessary" severity="warning" />
-        <error source="CKV_K8S_1" line="3" message="Memory limits should be set" severity="warning" />
+        <error source="CKV_K8S_43" line="25" message="Image should use digest" severity="warning" />
     </file>
 </checkstyle>
