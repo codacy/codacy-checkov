@@ -56,6 +56,7 @@ def runCheckov(config):
     processEnv = os.environ.copy()
     processEnv["http_proxy"] = "http://127.0.0.1"
     processEnv["https_proxy"] = "https://127.0.0.1"
+    processEnv["LOG_LEVEL"] = "INFO"
     processEnv["BC_API_URL"] = "127.0.0.1"
 
     process = Popen(
