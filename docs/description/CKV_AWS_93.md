@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/bc_aws_iam_53).
+More information [here](https://docs.bridgecrew.io/docs/bc_aws_s3_24).
