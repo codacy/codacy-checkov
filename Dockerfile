@@ -4,6 +4,8 @@ COPY requirements.txt ./
 RUN apk update && \
     apk add musl-dev && \
     apk add gcc && \
+    apk add libffi-dev && \
+    pip install --upgrade pip && \
     pip install --no-cache-dir -r requirements.txt
 COPY src/*.py ./
 COPY docs /docs
