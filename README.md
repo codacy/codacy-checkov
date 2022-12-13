@@ -30,6 +30,11 @@ pip3 install -r requirements.txt
 ```bash
 amm doc-generator.sc
 ```
+In case you're having the following error while generating docs:
+```bash
+[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)
+```
+The solution can be found at https://stackoverflow.com/questions/50236117/scraping-ssl-certificate-verify-failed-error-for-http-en-wikipedia-org
 
 ## Test
 
