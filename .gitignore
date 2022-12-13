@@ -1,5 +1,6 @@
-.ammonite
 .mypy_cache
 *~
 .*.swp
 .idea
+.bsp
+.scala-build

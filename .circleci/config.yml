@@ -12,14 +12,15 @@ workflows:
       - codacy/sbt:
           name: build_docker_and_test
           cmd: |
-            # Install Ammonite
-            sudo sh -c '(echo "#!/usr/bin/env sh" && curl -L https://github.com/lihaoyi/Ammonite/releases/download/2.3.8/2.13-2.3.8) > /usr/local/bin/amm && chmod +x /usr/local/bin/amm'
+            # Install scala-cli
+            curl -sSLf https://virtuslab.github.io/scala-cli-packages/scala-setup.sh | sh
+            source ~/.profile
             # Install Checkov
             sudo apt-get update
             sudo apt-get install python3-pip
             pip3 install -r requirements.txt
             # Run doc-generator
-            amm doc-generator.sc
+            scala-cli run doc-generator.sc
             # Build and same Docker image
             docker build -t $CIRCLE_PROJECT_REPONAME:latest .
             docker save --output docker-image.tar $CIRCLE_PROJECT_REPONAME:latest
