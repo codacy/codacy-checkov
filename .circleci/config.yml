@@ -15,8 +15,8 @@ workflows:
             # Install Ammonite
             sudo sh -c '(echo "#!/usr/bin/env sh" && curl -L https://github.com/lihaoyi/Ammonite/releases/download/2.3.8/2.13-2.3.8) > /usr/local/bin/amm && chmod +x /usr/local/bin/amm'
             # Install Checkov
-            sudo apt-get update
-            sudo apt-get install python3-pip
+            sudo apt-get update # This is failing due to key signature problems
+            python3 -m pip install --upgrade pip
             pip3 install -r requirements.txt
             # Run doc-generator
             amm doc-generator.sc
