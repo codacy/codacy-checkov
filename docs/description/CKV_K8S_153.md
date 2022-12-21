@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/bc_k8s_109).
+More information [here](https://docs.bridgecrew.io/docs/prevent-all-nginx-ingress-annotation-snippets).

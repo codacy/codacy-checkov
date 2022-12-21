@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.clou/docs/bc_aws_logging_31).
+More information [here](https://docs.bridgecrew.io/docs/bc_aws_logging_31).

@@ -1,0 +1,1 @@
+More information [here](https://docs.bridgecrew.io/docs/the-build-output-cannot-be-affected-by-user-parameters-other-than-the-build-entry-point-and-the-top-level-source-location-github-actions-workflow_dispatch-inputs-must-be-empty).

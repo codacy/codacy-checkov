@@ -1,6 +1,6 @@
 {
   "name" : "checkov",
-  "version" : "2.1.188",
+  "version" : "2.2.22",
   "patterns" : [ {
     "patternId" : "CKV2_AWS_1",
     "level" : "Warning",
@@ -199,6 +199,13 @@
     "enabled" : true
   }, {
     "patternId" : "CKV2_AWS_4",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_40",
     "level" : "Warning",
     "category" : "ErrorProne",
     "parameters" : [ ],
@@ -640,13 +647,6 @@
     "enabled" : true
   }, {
     "patternId" : "CKV_ALI_33",
-    "level" : "Warning",
-    "category" : "ErrorProne",
-    "parameters" : [ ],
-    "languages" : [ ],
-    "enabled" : true
-  }, {
-    "patternId" : "CKV_ALI_34",
     "level" : "Warning",
     "category" : "ErrorProne",
     "parameters" : [ ],
@@ -2106,6 +2106,41 @@
     "languages" : [ ],
     "enabled" : true
   }, {
+    "patternId" : "CKV_AWS_272",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_AWS_273",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_AWS_274",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_AWS_275",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_AWS_276",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
     "patternId" : "CKV_AWS_28",
     "level" : "Warning",
     "category" : "ErrorProne",
@@ -2679,6 +2714,27 @@
     "patternId" : "CKV_AWS_99",
     "level" : "Warning",
     "category" : "Security",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_AZUREPIPELINES_1",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_AZUREPIPELINES_2",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_AZUREPIPELINES_3",
+    "level" : "Warning",
+    "category" : "ErrorProne",
     "parameters" : [ ],
     "languages" : [ ],
     "enabled" : true
@@ -4061,10 +4117,45 @@
     "languages" : [ ],
     "enabled" : true
   }, {
+    "patternId" : "CKV_GCP_107",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_GCP_108",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_GCP_109",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
     "patternId" : "CKV_GCP_11",
     "level" : "Warning",
     "category" : "Security",
     "subcategory" : "Auth",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_GCP_110",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_GCP_111",
+    "level" : "Warning",
+    "category" : "ErrorProne",
     "parameters" : [ ],
     "languages" : [ ],
     "enabled" : true
@@ -4890,6 +4981,13 @@
     "enabled" : true
   }, {
     "patternId" : "CKV_GITLABCI_2",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_GITLABCI_3",
     "level" : "Warning",
     "category" : "ErrorProne",
     "parameters" : [ ],
@@ -5809,6 +5907,90 @@
     "languages" : [ ],
     "enabled" : true
   }, {
+    "patternId" : "CKV_NCP_1",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_NCP_10",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_NCP_11",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_NCP_12",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_NCP_2",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_NCP_3",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_NCP_4",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_NCP_5",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_NCP_6",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_NCP_7",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_NCP_8",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_NCP_9",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
     "patternId" : "CKV_OCI_1",
     "level" : "Warning",
     "category" : "ErrorProne",
@@ -5999,6 +6181,13 @@
     "enabled" : true
   }, {
     "patternId" : "CKV_OPENAPI_6",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_OPENAPI_7",
     "level" : "Warning",
     "category" : "ErrorProne",
     "parameters" : [ ],

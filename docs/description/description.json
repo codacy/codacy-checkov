@@ -15,10 +15,6 @@
   "title" : "Ensure that the admission control plugin AlwaysAdmit is not set",
   "parameters" : [ ]
 }, {
-  "patternId" : "CKV_AWS_159",
-  "title" : "Ensure that Athena Workgroup is encrypted",
-  "parameters" : [ ]
-}, {
   "patternId" : "CKV_AZURE_73",
   "title" : "Ensure that Automation account variables are encrypted",
   "parameters" : [ ]
@@ -75,6 +71,14 @@
   "title" : "Ensure no NACL allow ingress from 0.0.0.0:0 to port 20",
   "parameters" : [ ]
 }, {
+  "patternId" : "CKV_GCP_109",
+  "title" : "Ensure the GCP PostgreSQL database log levels are set to ERROR or lower",
+  "parameters" : [ ]
+}, {
+  "patternId" : "CKV_AWS_159",
+  "title" : "Ensure that Athena Workgroup is encrypted",
+  "parameters" : [ ]
+}, {
   "patternId" : "CKV_AWS_100",
   "title" : "Ensure AWS EKS node group does not have implicit SSH access from 0.0.0.0/0",
   "parameters" : [ ]
@@ -123,10 +127,6 @@
   "title" : "Ensure no hard-coded secrets exist in lambda environment",
   "parameters" : [ ]
 }, {
-  "patternId" : "CKV_CIRCLECIPIPELINES_6",
-  "title" : "Ensure run commands are not vulnerable to shell injection",
-  "parameters" : [ ]
-}, {
   "patternId" : "CKV_AWS_16",
   "title" : "Ensure all data stored in the RDS is securely encrypted at rest",
   "parameters" : [ ]
@@ -147,6 +147,10 @@
   "title" : "Ensure that 'HTTP Version' is the latest, if used to run the Function app",
   "parameters" : [ ]
 }, {
+  "patternId" : "CKV_NCP_10",
+  "title" : "Ensure no NACL allow inbound from 0.0.0.0:0 to port 22",
+  "parameters" : [ ]
+}, {
   "patternId" : "CKV_GCP_45",
   "title" : "Ensure no roles that enable to impersonate and manage all service accounts are used at an organization level",
   "parameters" : [ ]
@@ -161,6 +165,14 @@
 }, {
   "patternId" : "CKV_GHA_3",
   "title" : "Suspicious use of curl with secrets",
+  "parameters" : [ ]
+}, {
+  "patternId" : "CKV2_AWS_40",
+  "title" : "Ensure AWS IAM policy does not allow full IAM privileges",
+  "parameters" : [ ]
+}, {
+  "patternId" : "CKV_CIRCLECIPIPELINES_6",
+  "title" : "Ensure run commands are not vulnerable to shell injection",
   "parameters" : [ ]
 }, {
   "patternId" : "CKV_K8S_157",
@@ -435,6 +447,10 @@
   "title" : "Ensure GitLab commits are signed",
   "parameters" : [ ]
 }, {
+  "patternId" : "CKV_YC_2",
+  "title" : "Ensure compute instance does not have public IP.",
+  "parameters" : [ ]
+}, {
   "patternId" : "CKV_OPENAPI_6",
   "title" : "Ensure that security requirement defined in securityDefinitions - version 2.0 files",
   "parameters" : [ ]
@@ -445,14 +461,6 @@
 }, {
   "patternId" : "CKV_K8S_7",
   "title" : "Do not admit containers with the NET_RAW capability",
-  "parameters" : [ ]
-}, {
-  "patternId" : "CKV_DOCKER_4",
-  "title" : "Ensure that COPY is used instead of ADD in Dockerfiles",
-  "parameters" : [ ]
-}, {
-  "patternId" : "CKV_AZURE_45",
-  "title" : "Ensure that no sensitive credentials are exposed in VM custom_data",
   "parameters" : [ ]
 }, {
   "patternId" : "CKV_PAN_6",
@@ -491,20 +499,28 @@
   "title" : "Ensure the pipeline image uses a non latest version tag",
   "parameters" : [ ]
 }, {
-  "patternId" : "CKV_ALI_34",
-  "title" : "Ensure RDS instance is set to auto upgrade minor versions",
-  "parameters" : [ ]
-}, {
-  "patternId" : "CKV_YC_2",
-  "title" : "Ensure compute instance does not have public IP.",
-  "parameters" : [ ]
-}, {
   "patternId" : "CKV_AWS_262",
   "title" : "Ensure Kendra index Server side encryption uses CMK",
   "parameters" : [ ]
 }, {
   "patternId" : "CKV_AWS_133",
   "title" : "Ensure that RDS instances has backup policy",
+  "parameters" : [ ]
+}, {
+  "patternId" : "CKV_NCP_3",
+  "title" : "Ensure no security group rules allow outbound traffic to 0.0.0.0/0",
+  "parameters" : [ ]
+}, {
+  "patternId" : "CKV_DOCKER_4",
+  "title" : "Ensure that COPY is used instead of ADD in Dockerfiles",
+  "parameters" : [ ]
+}, {
+  "patternId" : "CKV_AZURE_45",
+  "title" : "Ensure that no sensitive credentials are exposed in VM custom_data",
+  "parameters" : [ ]
+}, {
+  "patternId" : "CKV_NCP_8",
+  "title" : "Ensure no NACL allow inbound from 0.0.0.0:0 to port 20",
   "parameters" : [ ]
 }, {
   "patternId" : "CKV_ARGO_1",
@@ -663,6 +679,10 @@
   "title" : "Ensure Kubernetes cluster auto-upgrade is enabled.",
   "parameters" : [ ]
 }, {
+  "patternId" : "CKV_AWS_274",
+  "title" : "Disallow IAM roles, users, and groups from using the AWS AdministratorAccess policy",
+  "parameters" : [ ]
+}, {
   "patternId" : "CKV_AWS_8",
   "title" : "Ensure all data stored in the Launch configuration EBS is securely encrypted",
   "parameters" : [ ]
@@ -729,6 +749,10 @@
 }, {
   "patternId" : "CKV_AWS_17",
   "title" : "Ensure all data stored in RDS is not publicly accessible",
+  "parameters" : [ ]
+}, {
+  "patternId" : "CKV_AWS_273",
+  "title" : "Ensure access is controlled through SSO and not AWS IAM defined users",
   "parameters" : [ ]
 }, {
   "patternId" : "CKV_GCP_104",
@@ -1359,6 +1383,10 @@
   "title" : "Ensure web app redirects all HTTP traffic to HTTPS in Azure App Service Slot",
   "parameters" : [ ]
 }, {
+  "patternId" : "CKV_NCP_11",
+  "title" : "Ensure no NACL allow inbound from 0.0.0.0:0 to port 3389",
+  "parameters" : [ ]
+}, {
   "patternId" : "CKV_K8S_100",
   "title" : "Ensure that the --tls-cert-file and --tls-private-key-file arguments are set as appropriate",
   "parameters" : [ ]
@@ -1377,10 +1405,6 @@
 }, {
   "patternId" : "CKV_AWS_172",
   "title" : "Ensure QLDB ledger has deletion protection enabled",
-  "parameters" : [ ]
-}, {
-  "patternId" : "CKV_GCP_32",
-  "title" : "Ensure 'Block Project-wide SSH keys' is enabled for VM instances",
   "parameters" : [ ]
 }, {
   "patternId" : "CKV_CIRCLECIPIPELINES_4",
@@ -1435,6 +1459,14 @@
   "title" : "Ensure that Cloud KMS Key Rings are not anonymously or publicly accessible",
   "parameters" : [ ]
 }, {
+  "patternId" : "CKV_GITLABCI_3",
+  "title" : "Detecting image usages in gitlab workflows",
+  "parameters" : [ ]
+}, {
+  "patternId" : "CKV_GCP_32",
+  "title" : "Ensure 'Block Project-wide SSH keys' is enabled for VM instances",
+  "parameters" : [ ]
+}, {
   "patternId" : "CKV_AZURE_6",
   "title" : "Ensure AKS has an API Server Authorized IP Ranges enabled",
   "parameters" : [ ]
@@ -1483,6 +1515,10 @@
   "title" : "Ensure that BigQuery Tables are not anonymously or publicly accessible",
   "parameters" : [ ]
 }, {
+  "patternId" : "CKV_AZUREPIPELINES_3",
+  "title" : "Ensure set variable is not marked as a secret",
+  "parameters" : [ ]
+}, {
   "patternId" : "CKV_K8S_37",
   "title" : "Minimize the admission of containers with capabilities assigned",
   "parameters" : [ ]
@@ -1497,10 +1533,6 @@
 }, {
   "patternId" : "CKV_AWS_5",
   "title" : "Ensure all data stored in the Elasticsearch is securely encrypted at rest",
-  "parameters" : [ ]
-}, {
-  "patternId" : "CKV2_AWS_39",
-  "title" : "Ensure Domain Name System (DNS) query logging is enabled for Amazon Route 53 hosted zones",
   "parameters" : [ ]
 }, {
   "patternId" : "CKV_K8S_14",
@@ -1555,6 +1587,14 @@
   "title" : "Ensure Google compute firewall ingress does not allow unrestricted http port 80 access",
   "parameters" : [ ]
 }, {
+  "patternId" : "CKV_NCP_9",
+  "title" : "Ensure no NACL allow inbound from 0.0.0.0:0 to port 21",
+  "parameters" : [ ]
+}, {
+  "patternId" : "CKV2_AWS_39",
+  "title" : "Ensure Domain Name System (DNS) query logging is enabled for Amazon Route 53 hosted zones",
+  "parameters" : [ ]
+}, {
   "patternId" : "CKV_LIN_6",
   "title" : "Ensure Outbound Firewall Policy is not set to ACCEPT",
   "parameters" : [ ]
@@ -1565,6 +1605,10 @@
 }, {
   "patternId" : "CKV_AZURE_87",
   "title" : "Ensure that Azure Defender is set to On for Key Vault",
+  "parameters" : [ ]
+}, {
+  "patternId" : "CKV_AWS_272",
+  "title" : "Ensure AWS Lambda function is configured to validate code-signing",
   "parameters" : [ ]
 }, {
   "patternId" : "CKV_AWS_35",
@@ -1607,10 +1651,6 @@
   "title" : "Ensure that AWS Lambda function is configured for a Dead Letter Queue(DLQ)",
   "parameters" : [ ]
 }, {
-  "patternId" : "CKV_AZURE_55",
-  "title" : "Ensure that Azure Defender is set to On for Servers",
-  "parameters" : [ ]
-}, {
   "patternId" : "CKV_ALI_24",
   "title" : "Ensure RAM enforces MFA",
   "parameters" : [ ]
@@ -1621,6 +1661,10 @@
 }, {
   "patternId" : "CKV_AZURE_2",
   "title" : "Ensure Azure managed disk have encryption enabled",
+  "parameters" : [ ]
+}, {
+  "patternId" : "CKV_GCP_111",
+  "title" : "Ensure GCP PostgreSQL logs SQL statements",
   "parameters" : [ ]
 }, {
   "patternId" : "CKV_PAN_7",
@@ -1661,6 +1705,14 @@
 }, {
   "patternId" : "CKV_AZURE_125",
   "title" : "Ensures that Service Fabric use three levels of protection available",
+  "parameters" : [ ]
+}, {
+  "patternId" : "CKV_AZURE_55",
+  "title" : "Ensure that Azure Defender is set to On for Servers",
+  "parameters" : [ ]
+}, {
+  "patternId" : "CKV_NCP_2",
+  "title" : "Ensure every access control groups rule has a description",
   "parameters" : [ ]
 }, {
   "patternId" : "CKV_GCP_21",
@@ -1975,12 +2027,12 @@
   "title" : "Ensure that Azure Data Explorer uses double encryption",
   "parameters" : [ ]
 }, {
-  "patternId" : "CKV_OCI_13",
-  "title" : "OCI IAM password policy - must contain Special characters",
+  "patternId" : "CKV_NCP_1",
+  "title" : "Ensure HTTP HTTPS Target group defines Healthcheck",
   "parameters" : [ ]
 }, {
-  "patternId" : "CKV_GCP_29",
-  "title" : "Ensure that Cloud Storage buckets have uniform bucket-level access enabled",
+  "patternId" : "CKV_OCI_13",
+  "title" : "OCI IAM password policy - must contain Special characters",
   "parameters" : [ ]
 }, {
   "patternId" : "CKV_AWS_94",
@@ -2045,6 +2097,14 @@
 }, {
   "patternId" : "CKV_ALI_25",
   "title" : "Ensure RDS Instance SQL Collector Retention Period should be greater than 180",
+  "parameters" : [ ]
+}, {
+  "patternId" : "CKV_GCP_29",
+  "title" : "Ensure that Cloud Storage buckets have uniform bucket-level access enabled",
+  "parameters" : [ ]
+}, {
+  "patternId" : "CKV_GCP_110",
+  "title" : "Ensure pgAudit is enabled for your GCP PostgreSQL database",
   "parameters" : [ ]
 }, {
   "patternId" : "CKV_ALI_4",
@@ -2383,6 +2443,10 @@
   "title" : "Ensure Virtual Machine Extensions are not Installed",
   "parameters" : [ ]
 }, {
+  "patternId" : "CKV_NCP_12",
+  "title" : "An inbound Network ACL rule should not allow ALL ports.",
+  "parameters" : [ ]
+}, {
   "patternId" : "CKV_K8S_36",
   "title" : "Minimize the admission of containers with capabilities assigned",
   "parameters" : [ ]
@@ -2539,6 +2603,10 @@
   "title" : "Autoscaling groups should supply tags to launch configurations",
   "parameters" : [ ]
 }, {
+  "patternId" : "CKV_AZUREPIPELINES_2",
+  "title" : "Ensure container job uses a version digest",
+  "parameters" : [ ]
+}, {
   "patternId" : "CKV_AZURE_14",
   "title" : "Ensure web app redirects all HTTP traffic to HTTPS in Azure App Service",
   "parameters" : [ ]
@@ -2691,12 +2759,8 @@
   "title" : "Ensure that auto Scaling groups that are associated with a load balancer, are using Elastic Load Balancing health checks.",
   "parameters" : [ ]
 }, {
-  "patternId" : "CKV_K8S_9",
-  "title" : "Readiness Probe Should be Configured",
-  "parameters" : [ ]
-}, {
-  "patternId" : "CKV_ALI_8",
-  "title" : "Ensure Disk is encrypted with Customer Master Key",
+  "patternId" : "CKV_GCP_107",
+  "title" : "Cloud functions should not be public",
   "parameters" : [ ]
 }, {
   "patternId" : "CKV_AWS_271",
@@ -2763,6 +2827,10 @@
   "title" : "Ensure that Container Registry repositories are not anonymously or publicly accessible",
   "parameters" : [ ]
 }, {
+  "patternId" : "CKV_AWS_276",
+  "title" : "Ensure Data Trace is not enabled in API Gateway Method Settings",
+  "parameters" : [ ]
+}, {
   "patternId" : "CKV_ALI_20",
   "title" : "Ensure RDS instance uses SSL",
   "parameters" : [ ]
@@ -2781,6 +2849,22 @@
 }, {
   "patternId" : "CKV_AWS_174",
   "title" : "Verify CloudFront Distribution Viewer Certificate is using TLS v1.2",
+  "parameters" : [ ]
+}, {
+  "patternId" : "CKV_K8S_9",
+  "title" : "Readiness Probe Should be Configured",
+  "parameters" : [ ]
+}, {
+  "patternId" : "CKV_NCP_5",
+  "title" : "Ensure no access control groups allow inbound from 0.0.0.0:0 to port 3389",
+  "parameters" : [ ]
+}, {
+  "patternId" : "CKV_ALI_8",
+  "title" : "Ensure Disk is encrypted with Customer Master Key",
+  "parameters" : [ ]
+}, {
+  "patternId" : "CKV_NCP_6",
+  "title" : "Ensure Server instance is encrypted.",
   "parameters" : [ ]
 }, {
   "patternId" : "CKV_AWS_29",
@@ -2817,6 +2901,10 @@
 }, {
   "patternId" : "CKV_GCP_12",
   "title" : "Ensure Network Policy is enabled on Kubernetes Engine Clusters",
+  "parameters" : [ ]
+}, {
+  "patternId" : "CKV_GCP_108",
+  "title" : "Ensure hostnames are logged for GCP PostgreSQL databases",
   "parameters" : [ ]
 }, {
   "patternId" : "CKV_OPENAPI_3",
@@ -2897,6 +2985,10 @@
 }, {
   "patternId" : "CKV_GCP_46",
   "title" : "Ensure Default Service account is not used at a project level",
+  "parameters" : [ ]
+}, {
+  "patternId" : "CKV_AWS_275",
+  "title" : "Disallow policies from using the AWS AdministratorAccess policy",
   "parameters" : [ ]
 }, {
   "patternId" : "CKV_AZURE_156",
@@ -3399,16 +3491,12 @@
   "title" : "Apply security context to your pods and containers",
   "parameters" : [ ]
 }, {
-  "patternId" : "CKV2_AZURE_20",
-  "title" : "Ensure Storage logging is enabled for Table service for read requests",
+  "patternId" : "CKV_AZUREPIPELINES_1",
+  "title" : "Ensure container job uses a non latest version tag",
   "parameters" : [ ]
 }, {
   "patternId" : "CKV_AWS_9",
   "title" : "Ensure IAM password policy expires passwords within 90 days or less",
-  "parameters" : [ ]
-}, {
-  "patternId" : "CKV_AZURE_139",
-  "title" : "Ensure ACR set to disable public networking",
   "parameters" : [ ]
 }, {
   "patternId" : "CKV_AWS_66",
@@ -3417,6 +3505,14 @@
 }, {
   "patternId" : "CKV_K8S_32",
   "title" : "Ensure default seccomp profile set to docker/default or runtime/default",
+  "parameters" : [ ]
+}, {
+  "patternId" : "CKV2_AZURE_20",
+  "title" : "Ensure Storage logging is enabled for Table service for read requests",
+  "parameters" : [ ]
+}, {
+  "patternId" : "CKV_OPENAPI_7",
+  "title" : "Ensure that the path scheme does not support unencrypted HTTP connection where all transmissions are open to interception- version 2.0 files",
   "parameters" : [ ]
 }, {
   "patternId" : "CKV_AZURE_96",
@@ -3445,6 +3541,14 @@
 }, {
   "patternId" : "CKV_K8S_92",
   "title" : "Ensure that the --audit-log-maxage argument is set to 30 or as appropriate",
+  "parameters" : [ ]
+}, {
+  "patternId" : "CKV_AZURE_139",
+  "title" : "Ensure ACR set to disable public networking",
+  "parameters" : [ ]
+}, {
+  "patternId" : "CKV_NCP_7",
+  "title" : "Ensure Basic Block storage is encrypted.",
   "parameters" : [ ]
 }, {
   "patternId" : "CKV_AWS_191",
@@ -3537,6 +3641,10 @@
 }, {
   "patternId" : "CKV_AZURE_57",
   "title" : "Ensure that CORS disallows every resource to access app services",
+  "parameters" : [ ]
+}, {
+  "patternId" : "CKV_NCP_4",
+  "title" : "Ensure no access control groups allow inbound from 0.0.0.0:0 to port 22",
   "parameters" : [ ]
 }, {
   "patternId" : "CKV_AWS_91",
