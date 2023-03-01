@@ -67,7 +67,7 @@ def runCheckov(config):
         env=processEnv
     )
     stdout = process.communicate()[0]
-    if stdout != None:
+    if len(stdout) > 0:
         return json.loads(stdout.decode('utf-8'))
     else:
         return None
