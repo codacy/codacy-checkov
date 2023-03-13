@@ -1,1 +1,1 @@
-Prevent cloud misconfigurations for Terraform, Cloudformation, Kubernetes, Serverless framework and other infrastructure-as-code-languages with Checkov by Bridgecrew.
+Checkov prevents cloud misconfigurations by analyzing Terraform, Cloudformation, Kubernetes, Serverless framework and other infrastructure-as-code languages. [Learn more](https://github.com/bridgecrewio/checkov)
