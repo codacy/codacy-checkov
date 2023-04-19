@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/bc_k8s_38).
+More information [here](https://docs.bridgecrew.io/docs/ensure-default-service-accounts-are-not-actively-used).

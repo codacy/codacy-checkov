@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/ensure-that-load-balancer-has-deletion-protection-enabled).
+More information [here](https://docs.bridgecrew.io/docs/ensure-session-manager-logs-are-enabled-and-encrypted).

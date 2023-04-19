@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/bc_aws_networking_53).
+More information [here](https://docs.bridgecrew.io/docs/ensure-route53-a-record-has-an-attached-resource).

@@ -1,0 +1,1 @@
+More information [here](https://docs.bridgecrew.io/docs/serviceaccounts-and-nodes-that-can-modify-servicesstatus-may-set-the-statusloadbalanceringressip-field-to-exploit-the-unfixed-cve-2020-8554-and-launch-mitm-attacks-against-the-cluster).
