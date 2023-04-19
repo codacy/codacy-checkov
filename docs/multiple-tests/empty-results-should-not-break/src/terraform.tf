@@ -1,4 +1,4 @@
-data "aws_iam_policy_document" "allow_all" {
+data "aws_iam_policy_document" "example" {
   statement {
     effect = "Allow"
     actions = [
