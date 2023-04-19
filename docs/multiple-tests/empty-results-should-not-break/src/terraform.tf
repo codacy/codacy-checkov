@@ -1,6 +1,6 @@
 data "aws_iam_policy_document" "example" {
   statement {
-    effect = "Allow"
+    effect = "Deny"
     actions = [
         "lambda:CreateFunction",
         "lambda:CreateEventSourceMapping",
