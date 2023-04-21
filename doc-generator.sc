@@ -1,4 +1,9 @@
-import $ivy.`com.codacy::codacy-engine-scala-seed:5.0.3`
+//> using scala "2"
+//> using lib "com.codacy::codacy-engine-scala-seed:6.1.0"
+//> using lib "com.lihaoyi::os-lib:0.9.1"
+//> using lib "com.lihaoyi::upickle:3.1.0"
+//> using lib "com.lihaoyi::requests:0.8.0"
+
 
 import com.codacy.plugins.api.results.Pattern
 import com.codacy.plugins.api.results.Result
@@ -54,7 +59,7 @@ val lines = os
 
 val guidelines = ujson
   .read(
-    requests.get("https://www.bridgecrew.cloud/api/v1/guidelines")
+    requests.get("https://www.bridgecrew.cloud/api/v2/guidelines")
   )("guidelines")
   .obj
 
@@ -80,7 +85,7 @@ val checkovChecks =
 
 def categoryAndSubcategoryOf(
     patternId: String
-): (Pattern.Category, Option[Pattern.Subcategory]) = patternId match {
+  ): (Pattern.Category, Option[Pattern.Subcategory]) = patternId match {
   case "CKV_AWS_1" | "CKV_AWS_9" | "CKV_AWS_10" | "CKV_AWS_11" | "CKV_AWS_12" |
       "CKV_AWS_13" | "CKV_AWS_14" | "CKV_AWS_15" | "CKV_AWS_17" | "CKV_AWS_20" |
       "CKV_AWS_32" | "CKV_AWS_33" | "CKV_AWS_40" | "CKV_AWS_41" | "CKV_AWS_45" |
@@ -137,8 +142,8 @@ def categoryAndSubcategoryOf(
       "CKV_K8S_27" | "CKV_K8S_28" | "CKV_K8S_29" | "CKV_K8S_30" | "CKV_K8S_31" |
       "CKV_K8S_32" | "CKV_K8S_33" | "CKV_K8S_34" | "CKV_K8S_35" | "CKV_K8S_36" |
       "CKV_K8S_37" | "CKV_K8S_38" | "CKV_K8S_39" | "CKV_K8S_41" | "CKV_K8S_42" |
-      "CKV_K8S_43" | "CKV_K8S_44" | "CKV_K8S_45" =>
-    (Pattern.Category.Security, None)
+      "CKV_K8S_43" | "CKV_K8S_44" | "CKV_K8S_45"  => 
+      (Pattern.Category.Security, None)
   case _ => (Pattern.Category.ErrorProne, None)
 }
 

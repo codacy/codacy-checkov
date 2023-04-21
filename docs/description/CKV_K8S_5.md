@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/bc_k8s_19).
+More information [here](https://docs.bridgecrew.io/docs/ensure-containers-do-not-run-with-allowprivilegeescalation).

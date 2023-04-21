@@ -1,7 +1,7 @@
 version: 2.1
 
 orbs:
-  codacy: codacy/base@7.0.0
+  codacy: codacy/base@10.2.3
   codacy_plugins_test: codacy/plugins-test@1.1.1
 
 workflows:
@@ -12,14 +12,14 @@ workflows:
       - codacy/sbt:
           name: build_docker_and_test
           cmd: |
-            # Install Ammonite
-            sudo sh -c '(echo "#!/usr/bin/env sh" && curl -L https://github.com/lihaoyi/Ammonite/releases/download/2.3.8/2.13-2.3.8) > /usr/local/bin/amm && chmod +x /usr/local/bin/amm'
-            # Install Checkov
+            # Install scala-cli
+            curl -sSLf https://virtuslab.github.io/scala-cli-packages/scala-setup.sh | sh
+            source ~/.profile
             sudo apt-get update # This is failing due to key signature problems
             python3 -m pip install --upgrade pip
             pip3 install -r requirements.txt
             # Run doc-generator
-            amm doc-generator.sc
+            scala-cli run doc-generator.sc
             # Build and same Docker image
             docker build -t $CIRCLE_PROJECT_REPONAME:latest .
             docker save --output docker-image.tar $CIRCLE_PROJECT_REPONAME:latest
