@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/bc_azr_storage_4).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/azure-policies/azure-storage-policies/bc-azr-storage-4.html).

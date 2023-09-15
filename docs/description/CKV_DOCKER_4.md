@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/ensure-that-copy-is-used-instead-of-add-in-dockerfiles).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/docker-policies/docker-policy-index/ensure-that-copy-is-used-instead-of-add-in-dockerfiles.html).

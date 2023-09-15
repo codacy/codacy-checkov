@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/ensure-that-azure-iot-hub-disables-public-network-access).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/azure-policies/azure-networking-policies/ensure-that-azure-iot-hub-disables-public-network-access.html).

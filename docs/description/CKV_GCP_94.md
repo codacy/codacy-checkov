@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/ensure-gcp-cloud-dataflow-job-has-public-ips).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/google-cloud-policies/google-cloud-public-policies/ensure-gcp-cloud-dataflow-job-has-public-ips.html).

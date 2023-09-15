@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/s3_1-acl-read-permissions-everyone).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/aws-policies/s3-policies/s3-1-acl-read-permissions-everyone.html).

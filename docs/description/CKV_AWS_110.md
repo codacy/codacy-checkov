@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/ensure-iam-policies-does-not-allow-privilege-escalation).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/aws-policies/aws-iam-policies/ensure-iam-policies-does-not-allow-privilege-escalation.html).

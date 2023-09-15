@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/ensure-that-the-authorization-mode-argument-includes-rbac).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/kubernetes-policies/kubernetes-policy-index/ensure-that-the-authorization-mode-argument-includes-rbac.html).

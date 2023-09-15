@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/ensure-audit-profile-captures-all-activities).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/azure-policies/azure-logging-policies/ensure-audit-profile-captures-all-activities.html).

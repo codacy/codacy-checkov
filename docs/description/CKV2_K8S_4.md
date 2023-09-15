@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/serviceaccounts-and-nodes-that-can-modify-servicesstatus-may-set-the-statusloadbalanceringressip-field-to-exploit-the-unfixed-cve-2020-8554-and-launch-mitm-attacks-against-the-cluster).
+More information [here](https://docs.paloaltonetworks.com/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/kubernetes-policies/kubernetes-policy-index/serviceaccounts-and-nodes-potentially-exposed-to-cve-2020-8554).

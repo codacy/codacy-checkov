@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/ensure-oci-compute-instance-boot-volume-has-in-transit-data-encryption-enabled).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/oci-policies/compute/ensure-oci-compute-instance-boot-volume-has-in-transit-data-encryption-enabled.html).

@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/networking_1-port-security).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/aws-policies/aws-networking-policies/networking-1-port-security.html).

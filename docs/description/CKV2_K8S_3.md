@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/no-serviceaccountnode-should-have-impersonate-permissions-for-groupsusersservice-accounts).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/kubernetes-policies/kubernetes-policy-index/no-serviceaccountnode-should-have-impersonate-permissions-for-groupsusersservice-accounts.html).

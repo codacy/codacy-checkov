@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/ensure-that-cloud-audit-logging-is-configured-properly-across-all-services-and-all-users-from-a-project).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/google-cloud-policies/logging-policies-1/ensure-that-cloud-audit-logging-is-configured-properly-across-all-services-and-all-users-from-a-project.html).

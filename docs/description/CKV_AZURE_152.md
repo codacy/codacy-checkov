@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/ensure-azure-client-certificates-are-enforced-for-api-management).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/azure-policies/azure-general-policies/ensure-azure-client-certificates-are-enforced-for-api-management.html).

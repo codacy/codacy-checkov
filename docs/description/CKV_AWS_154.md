@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/ensure-redshift-is-not-deployed-outside-of-a-vpc).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/aws-policies/aws-networking-policies/ensure-redshift-is-not-deployed-outside-of-a-vpc.html).

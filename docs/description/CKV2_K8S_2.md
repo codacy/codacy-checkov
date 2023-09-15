@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/granting-create-permissions-to-nodesproxy-or-podsexec-sub-resources-allows-potential-privilege-escalation).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/kubernetes-policies/kubernetes-policy-index/granting-create-permissions-to-nodesproxy-or-podsexec-sub-resources-allows-potential-privilege-escalation.html).

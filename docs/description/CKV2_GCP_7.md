@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/ensure-that-a-mysql-database-instance-does-not-allow-anyone-to-connect-with-administrative-privileges).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/google-cloud-policies/google-cloud-iam-policies/ensure-that-a-mysql-database-instance-does-not-allow-anyone-to-connect-with-administrative-privileges.html).

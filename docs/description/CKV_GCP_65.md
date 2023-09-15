@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/manage-kubernetes-rbac-users-with-google-groups-for-gke).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/google-cloud-policies/google-cloud-kubernetes-policies/manage-kubernetes-rbac-users-with-google-groups-for-gke.html).

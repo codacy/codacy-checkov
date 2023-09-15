@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/ensure-alibaba-rds-instance-has-log_connections-enabled).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/alibaba-policies/alibaba-general-policies/ensure-alibaba-rds-instance-has-log-connections-enabled.html).

@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/iam_9-1).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/aws-policies/aws-iam-policies/iam-9-1.html).

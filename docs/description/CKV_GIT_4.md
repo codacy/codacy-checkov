@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/ensure-github-actions-secrets-are-encrypted).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/build-integrity-policies/github-policies/ensure-github-actions-secrets-are-encrypted.html).

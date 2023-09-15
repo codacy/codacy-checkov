@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/ensure-gitlab-prevent-secrets-is-enabled).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/build-integrity-policies/gitlab-policies/ensure-gitlab-prevent-secrets-is-enabled.html).

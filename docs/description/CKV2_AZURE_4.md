@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/ensure-that-va-setting-send-scan-reports-to-is-configured-for-a-sql-server).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/azure-policies/azure-general-policies/ensure-that-va-setting-send-scan-reports-to-is-configured-for-a-sql-server.html).

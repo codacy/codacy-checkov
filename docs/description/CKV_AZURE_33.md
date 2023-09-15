@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/enable-requests-on-storage-logging-for-queue-service).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/azure-policies/azure-logging-policies/enable-requests-on-storage-logging-for-queue-service.html).

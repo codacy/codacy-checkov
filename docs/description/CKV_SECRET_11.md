@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/git_secrets_11).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/secrets-policies/secrets-policy-index/git-secrets-11.html).

@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/ensure-that-vpc-endpoint-service-is-configured-for-manual-acceptance).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/aws-policies/aws-networking-policies/ensure-that-vpc-endpoint-service-is-configured-for-manual-acceptance.html).

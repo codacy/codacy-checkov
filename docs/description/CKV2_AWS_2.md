@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/ensure-that-only-encrypted-ebs-volumes-are-attached-to-ec2-instances).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/aws-policies/aws-general-policies/ensure-that-only-encrypted-ebs-volumes-are-attached-to-ec2-instances.html).

@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/ensure-aws-cloudfromt-distribution-with-s3-have-origin-access-set-to-enabled).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/aws-policies/aws-iam-policies/ensure-aws-cloudfromt-distribution-with-s3-have-origin-access-set-to-enabled.html).

@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/ensure-legacy-compute-engine-instance-metadata-apis-are-disabled).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/google-cloud-policies/google-cloud-kubernetes-policies/ensure-legacy-compute-engine-instance-metadata-apis-are-disabled.html).
