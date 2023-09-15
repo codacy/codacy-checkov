@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/set-activity-log-retention-to-365-days-or-greater).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/azure-policies/azure-logging-policies/set-activity-log-retention-to-365-days-or-greater.html).

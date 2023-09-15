@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/elasticsearch_3-enable-encryptionatrest).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/aws-policies/elastisearch-policies/elasticsearch-3-enable-encryptionatrest.html).

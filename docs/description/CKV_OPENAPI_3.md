@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/ensure-that-security-schemes-dont-allow-cleartext-credentials-over-unencrypted-channel).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/api-policies/openapi-policies/ensure-that-security-schemes-dont-allow-cleartext-credentials-over-unencrypted-channel.html).

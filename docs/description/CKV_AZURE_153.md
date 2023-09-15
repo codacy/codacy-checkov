@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/ensure-azure-web-app-redirects-all-http-traffic-to-https-in-azure-app-service-slot).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/azure-policies/azure-networking-policies/ensure-azure-web-app-redirects-all-http-traffic-to-https-in-azure-app-service-slot.html).

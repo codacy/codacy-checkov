@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/ensure-docker-from-alias-is-unique-for-multistage-builds).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/docker-policies/docker-policy-index/ensure-docker-from-alias-is-unique-for-multistage-builds.html).

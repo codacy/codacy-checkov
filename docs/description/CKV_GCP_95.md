@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/ensure-gcp-memorystore-for-redis-is-auth-enabled).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/google-cloud-policies/google-cloud-general-policies/ensure-gcp-memorystore-for-redis-is-auth-enabled.html).

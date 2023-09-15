@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/set-default-network-access-rule-for-storage-accounts-to-deny).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/azure-policies/azure-networking-policies/set-default-network-access-rule-for-storage-accounts-to-deny.html).

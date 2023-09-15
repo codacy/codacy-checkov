@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/bc_azr_general_14).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/azure-policies/azure-general-policies/bc-azr-general-14.html).

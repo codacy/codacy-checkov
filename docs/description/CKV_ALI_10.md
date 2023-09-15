@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/ensure-alibaba-cloud-oss-bucket-has-versioning-enabled).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/alibaba-policies/alibaba-general-policies/ensure-alibaba-cloud-oss-bucket-has-versioning-enabled.html).

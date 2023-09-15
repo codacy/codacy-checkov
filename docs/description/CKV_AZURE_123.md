@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/ensure-that-azure-front-door-uses-waf-in-detection-or-prevention-modes).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/azure-policies/azure-networking-policies/ensure-that-azure-front-door-uses-waf-in-detection-or-prevention-modes.html).

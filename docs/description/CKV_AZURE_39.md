@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/do-not-create-custom-subscription-owner-roles).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/azure-policies/azure-iam-policies/do-not-create-custom-subscription-owner-roles.html).

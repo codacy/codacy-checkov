@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/ensure-alibaba-cloud-mongodb-instance-uses-ssl).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/alibaba-policies/alibaba-networking-policies/ensure-alibaba-cloud-mongodb-instance-uses-ssl.html).

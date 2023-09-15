@@ -28,7 +28,7 @@ pip3 install -r requirements.txt
  3. Run the DocGenerator:
 
 ```bash
-amm doc-generator.sc
+./scala-cli doc-generator.sc
 ```
 
 ## Test

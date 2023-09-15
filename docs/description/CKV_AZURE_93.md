@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/ensure-that-managed-disks-use-a-specific-set-of-disk-encryption-sets-for-the-customer-managed-key-encryption).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/azure-policies/azure-general-policies/ensure-that-managed-disks-use-a-specific-set-of-disk-encryption-sets-for-the-customer-managed-key-encryption.html).

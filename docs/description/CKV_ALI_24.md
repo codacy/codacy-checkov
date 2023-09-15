@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/ensure-alibaba-cloud-ram-enforces-mfa).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/alibaba-policies/alibaba-iam-policies/ensure-alibaba-cloud-ram-enforces-mfa.html).

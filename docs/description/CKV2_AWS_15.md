@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/ensure-that-auto-scaling-groups-that-are-associated-with-a-load-balancer-are-using-elastic-load-balancing-health-checks).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/aws-policies/aws-networking-policies/ensure-that-auto-scaling-groups-that-are-associated-with-a-load-balancer-are-using-elastic-load-balancing-health-checks.html).

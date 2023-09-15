@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/bc_gcp_general_4).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/google-cloud-policies/google-cloud-general-policies/bc-gcp-general-4.html).

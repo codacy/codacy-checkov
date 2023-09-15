@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/prevent-nginx-ingress-annotation-snippets-which-contain-alias-statements).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/kubernetes-policies/kubernetes-policy-index/prevent-nginx-ingress-annotation-snippets-which-contain-alias-statements.html).

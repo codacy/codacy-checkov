@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/tbdensure-that-app-service-enables-detailed-error-messages).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/azure-policies/azure-logging-policies/tbdensure-that-app-service-enables-detailed-error-messages.html).

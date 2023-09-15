@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/public_6-api-gateway-authorizer-set).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/aws-policies/public-policies/public-6-api-gateway-authorizer-set.html).

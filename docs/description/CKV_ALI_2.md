@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/ensure-no-alibaba-cloud-security-groups-allow-ingress-from-00000-to-port-22).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/alibaba-policies/alibaba-networking-policies/ensure-no-alibaba-cloud-security-groups-allow-ingress-from-00000-to-port-22.html).

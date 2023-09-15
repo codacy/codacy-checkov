@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/ensure-azure-databricks-workspace-is-not-public).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/azure-policies/azure-networking-policies/ensure-azure-databricks-workspace-is-not-public.html).

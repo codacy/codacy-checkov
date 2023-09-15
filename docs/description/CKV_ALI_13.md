@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/ensure-alibaba-cloud-ram-password-policy-requires-minimum-length-of-14-or-greater).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/alibaba-policies/alibaba-iam-policies/ensure-alibaba-cloud-ram-password-policy-requires-minimum-length-of-14-or-greater.html).

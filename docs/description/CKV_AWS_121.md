@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/logging_5-enable-aws-config-regions).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/aws-policies/aws-logging-policies/logging-5-enable-aws-config-regions.html).

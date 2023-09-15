@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/ensure-aws-memorydb-is-encrypted-at-rest-by-aws-key-management-service-kms-using-cmks).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/aws-policies/aws-general-policies/ensure-aws-memorydb-is-encrypted-at-rest-by-aws-key-management-service-kms-using-cmks.html).

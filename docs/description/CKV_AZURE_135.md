@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/ensure-application-gateway-waf-prevents-message-lookup-in-log4j2).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/azure-policies/azure-networking-policies/ensure-application-gateway-waf-prevents-message-lookup-in-log4j2.html).

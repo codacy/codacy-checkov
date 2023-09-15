@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/ensure-allow-access-to-azure-services-for-postgresql-database-server-is-disabled).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/azure-policies/azure-general-policies/ensure-allow-access-to-azure-services-for-postgresql-database-server-is-disabled.html).

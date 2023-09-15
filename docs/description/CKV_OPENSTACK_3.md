@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/bc_openstack_networking_2).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/openstack-policies/openstack-policy-index/bc-openstack-networking-2.html).

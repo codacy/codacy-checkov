@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/set-an-expiration-date-on-all-keys).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/azure-policies/azure-general-policies/set-an-expiration-date-on-all-keys.html).

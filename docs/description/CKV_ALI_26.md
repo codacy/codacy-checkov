@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/ensure-alibaba-cloud-kubernetes-installs-plugin-terway-or-flannel-to-support-standard-policies).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/alibaba-policies/alibaba-kubernetes-policies/ensure-alibaba-cloud-kubernetes-installs-plugin-terway-or-flannel-to-support-standard-policies.html).

@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/ensure-alibaba-cloud-kubernetes-node-pools-are-set-to-auto-repair).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/alibaba-policies/alibaba-kubernetes-policies/ensure-alibaba-cloud-kubernetes-node-pools-are-set-to-auto-repair.html).

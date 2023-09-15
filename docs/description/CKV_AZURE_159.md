@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/ensure-azure-built-in-logging-for-azure-function-app-is-enabled).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/azure-policies/azure-general-policies/ensure-azure-built-in-logging-for-azure-function-app-is-enabled.html).

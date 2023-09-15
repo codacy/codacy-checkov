@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/ensure-oci-compute-instance-has-monitoring-enabled).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/oci-policies/logging/ensure-oci-compute-instance-has-monitoring-enabled.html).

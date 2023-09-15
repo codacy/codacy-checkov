@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/ensure-public-api-gateway-are-protected-by-waf).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/aws-policies/aws-networking-policies/ensure-public-api-gateway-are-protected-by-waf.html).

@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/bc_oci_secrets_1).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/oci-policies/secrets-1/bc-oci-secrets-1.html).

@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/ensure-gcp-vertex-ai-datasets-use-a-customer-manager-key-cmk).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/google-cloud-policies/google-cloud-general-policies/ensure-gcp-vertex-ai-datasets-use-a-customer-manager-key-cmk.html).

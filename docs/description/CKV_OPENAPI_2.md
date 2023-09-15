@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/ensure-that-if-the-security-scheme-is-not-of-type-oauth2-the-array-value-must-be-empty).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/api-policies/openapi-policies/ensure-that-if-the-security-scheme-is-not-of-type-oauth2-the-array-value-must-be-empty.html).

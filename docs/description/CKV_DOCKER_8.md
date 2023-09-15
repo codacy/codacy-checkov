@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/ensure-the-last-user-is-not-root).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/docker-policies/docker-policy-index/ensure-the-last-user-is-not-root.html).

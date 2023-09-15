@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/ensure-vcn-inbound-security-lists-are-stateless).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/oci-policies/networking/ensure-vcn-inbound-security-lists-are-stateless.html).

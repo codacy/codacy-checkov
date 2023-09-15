@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/bc_k8s_34).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/kubernetes-policies/kubernetes-policy-index/minimize-the-admission-of-containers-with-capabilities-assigned.html).

@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/oci-iam-password-policy-for-local-non-federated-users-has-a-minimum-length-of-14-characters).
+More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/oci-policies/iam/oci-iam-password-policy-for-local-non-federated-users-has-a-minimum-length-of-14-characters.html).
