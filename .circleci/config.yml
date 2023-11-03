@@ -1,20 +1,21 @@
 version: 2.1
 
 orbs:
-  codacy: codacy/base@10.9.1
+  codacy: codacy/base@10.10.0
   codacy_plugins_test: codacy/plugins-test@1.1.1
 
 workflows:
-  version: 2
   compile_test_deploy:
     jobs:
       - codacy/checkout_and_version
       - codacy/sbt:
           name: build_docker_and_test
+          context: CodacyCircleCI
           cmd: |
             # Install scala-cli
             curl -sSLf https://virtuslab.github.io/scala-cli-packages/scala-setup.sh | sh
             source ~/.profile
+            curl -f https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
             sudo apt-get update # This is failing due to key signature problems
             python3 -m pip install --upgrade pip
             pip3 install -r requirements.txt
@@ -23,7 +24,6 @@ workflows:
             # Build and same Docker image
             docker build -t $CIRCLE_PROJECT_REPONAME:latest .
             docker save --output docker-image.tar $CIRCLE_PROJECT_REPONAME:latest
-          persist_to_workspace: true
           requires:
             - codacy/checkout_and_version
       - codacy_plugins_test/run:
