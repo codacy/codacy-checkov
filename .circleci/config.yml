@@ -18,7 +18,7 @@ workflows:
             curl -f https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
             sudo apt-get update # This is failing due to key signature problems
             python3 -m pip install --upgrade pip
-            pip3 install -r requirements.txt
+            pip install -r requirements.txt
             # Run doc-generator
             scala-cli run doc-generator.sc
             # Build and same Docker image
