@@ -1,4 +1,4 @@
 cffi==1.15.1
-checkov==2.3.187
+checkov==1.0.669
 jsonpickle==3.0.2
 packaging<=23.2
