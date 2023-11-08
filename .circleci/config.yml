@@ -13,9 +13,6 @@ workflows:
           context: CodacyCircleCI
           cmd: |
             # Install scala-cli
-            curl -sSLf https://virtuslab.github.io/scala-cli-packages/scala-setup.sh | sh
-            source ~/.profile
-            curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key --keyring /usr/share/keyrings/cloud.google.gpg add -
             python3 -m pip3 install --upgrade pip3
             pip3 install -r requirements.txt
             # Run doc-generator
