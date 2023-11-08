@@ -8,18 +8,26 @@ workflows:
   compile_test_deploy:
     jobs:
       - codacy/checkout_and_version
-      - codacy/sbt:
+      - codacy/shell:
           name: build_docker_and_test
           context: CodacyCircleCI
+          persist_to_workspace: true
           cmd: |
             # Install scala-cli
             curl -sSLf https://virtuslab.github.io/scala-cli-packages/scala-setup.sh | sh
             source ~/.profile
             sudo apt-get update # This is failing due to key signature problems
+
+            # update java
+            sudo apt install openjdk-17-jre
+            sudo update-java-alternatives --auto
+
             python3 -m pip install --upgrade pip
             pip3 install -r requirements.txt
+
             # Run doc-generator
             scala-cli run doc-generator.sc
+
             # Build and same Docker image
             docker build -t $CIRCLE_PROJECT_REPONAME:latest .
             docker save --output docker-image.tar $CIRCLE_PROJECT_REPONAME:latest
