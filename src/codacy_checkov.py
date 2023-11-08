@@ -60,8 +60,7 @@ def runCheckov(config):
     processEnv["BC_API_URL"] = "127.0.0.1"
 
     process = Popen(
-        ['checkov', '-o', 'json', '--quiet', '--no-guide',
-         '--skip-fixes', '--skip-suppressions'] + file_opts + config.rules,
+        ['checkov', '-o', 'json', '--quiet'] + file_opts + config.rules,
         stdout=PIPE,
         cwd='/src',
         env=processEnv
