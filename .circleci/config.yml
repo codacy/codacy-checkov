@@ -16,7 +16,6 @@ workflows:
             curl -sSLf https://virtuslab.github.io/scala-cli-packages/scala-setup.sh | sh
             source ~/.profile
             curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key --keyring /usr/share/keyrings/cloud.google.gpg add -
-            sudo apt-get update # This is failing due to key signature problems
             python3 -m pip install --upgrade pip
             pip install -r requirements.txt
             # Run doc-generator
