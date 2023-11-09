@@ -1,4 +1,6 @@
 cffi==1.15.1
-checkov==2.3.187
-jsonpickle==3.0.1
-packaging<=23.1
+checkov==3.0.25
+jsonpickle==3.0.2
+packaging<=23.2
+# Required for python 3.12 compatibility. Consider removing in future releases
+# aiohttp==3.9.0b1
