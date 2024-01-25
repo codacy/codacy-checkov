@@ -3,4 +3,4 @@ checkov==3.0.25
 jsonpickle==3.0.2
 packaging<=23.2
 # Required for python 3.12 compatibility. Consider removing in future releases
-# aiohttp==3.9.0b1
+aiohttp==3.9.0b1
