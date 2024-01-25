@@ -1,6 +1,6 @@
 {
   "name" : "checkov",
-  "version" : "3.0.25",
+  "version" : "3.0.12",
   "patterns" : [ {
     "patternId" : "CKV2_ADO_1",
     "level" : "Warning",
