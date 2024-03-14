@@ -1,1 +1,1 @@
-More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/alibaba-policies/alibaba-iam-policies/ensure-alibaba-cloud-ram-password-policy-requires-at-least-one-uppercase-letter.html).
+More information [here](https://docs.prismacloud.io/en/enterprise-edition/policy-reference/alibaba-policies/alibaba-iam-policies/ensure-alibaba-cloud-ram-password-policy-requires-at-least-one-uppercase-letter).

@@ -1,7 +1,7 @@
 //> using scala "2"
 //> using lib "com.codacy::codacy-engine-scala-seed:6.1.2"
 //> using lib "com.lihaoyi::os-lib:0.9.3"
-//> using lib "com.lihaoyi::upickle:3.1.4"
+//> using lib "com.lihaoyi::upickle:3.2.0"
 //> using lib "com.lihaoyi::requests:0.8.0"
 
 import com.codacy.plugins.api.results.Pattern

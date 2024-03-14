@@ -1,1 +1,1 @@
-More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/aws-policies/aws-general-policies/ensure-that-elastic-file-system-amazon-efs-file-systems-are-added-in-the-backup-plans-of-aws-backup.html).
+More information [here](https://docs.prismacloud.io/en/enterprise-edition/policy-reference/aws-policies/aws-general-policies/ensure-that-elastic-file-system-amazon-efs-file-systems-are-added-in-the-backup-plans-of-aws-backup).

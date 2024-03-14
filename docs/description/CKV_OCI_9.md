@@ -1,1 +1,1 @@
-More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/oci-policies/storage/ensure-oci-object-storage-is-encrypted-with-customer-managed-key.html).
+More information [here](https://docs.prismacloud.io/en/enterprise-edition/policy-reference/oci-policies/storage/ensure-oci-object-storage-is-encrypted-with-customer-managed-key).

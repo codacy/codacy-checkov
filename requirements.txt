@@ -1,7 +1,4 @@
 cffi==1.16.0
-checkov==3.2.32
+checkov==3.2.37
 jsonpickle==3.0.3
-packaging<=23.2
-# Required for python 3.12 compatibility. Consider removing in future releases
-aiohttp==3.9.3
-cyclonedx-python-lib==6.4.3
+packaging<=24.0

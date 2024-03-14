@@ -1,1 +1,1 @@
-More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/openstack-policies/openstack-policy-index/ensure-openstack-instance-does-not-use-basic-credentials.html).
+More information [here](https://docs.prismacloud.io/en/enterprise-edition/policy-reference/openstack-policies/openstack-policy-index/ensure-openstack-instance-does-not-use-basic-credentials).

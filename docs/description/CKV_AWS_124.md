@@ -1,1 +1,1 @@
-More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/aws-policies/aws-logging-policies/ensure-that-cloudformation-stacks-are-sending-event-notifications-to-an-sns-topic.html).
+More information [here](https://docs.prismacloud.io/en/enterprise-edition/policy-reference/aws-policies/aws-logging-policies/ensure-that-cloudformation-stacks-are-sending-event-notifications-to-an-sns-topic).
