@@ -1,1 +1,1 @@
-More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/kubernetes-policies/kubernetes-policy-index/ensure-clusterroles-that-grant-control-over-validating-or-mutating-admission-webhook-configurations-are-minimized.html).
+More information [here](https://docs.prismacloud.io/en/enterprise-edition/policy-reference/kubernetes-policies/kubernetes-policy-index/ensure-clusterroles-that-grant-control-over-validating-or-mutating-admission-webhook-configurations-are-minimized).

@@ -1,1 +1,1 @@
-More information [here](https://docs.paloaltonetworks.com/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/kubernetes-policies/kubernetes-policy-index/serviceaccounts-and-nodes-potentially-exposed-to-cve-2020-8554).
+More information [here](https://docs.prismacloud.io/en/enterprise-edition/policy-reference/kubernetes-policies/kubernetes-policy-index/serviceaccounts-and-nodes-potentially-exposed-to-cve-2020-8554).

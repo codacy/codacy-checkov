@@ -1,1 +1,1 @@
-More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/oci-policies/storage/oci-block-storage-block-volumes-are-not-encrypted-with-a-customer-managed-key-cmk.html).
+More information [here](https://docs.prismacloud.io/en/enterprise-edition/policy-reference/oci-policies/storage/oci-block-storage-block-volumes-are-not-encrypted-with-a-customer-managed-key-cmk).

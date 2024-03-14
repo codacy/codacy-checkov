@@ -1,1 +1,1 @@
-More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/alibaba-policies/alibaba-logging-policies/ensure-alibaba-cloud-rds-instance-sql-collector-retention-period-should-be-greater-than-180.html).
+More information [here](https://docs.prismacloud.io/en/enterprise-edition/policy-reference/alibaba-policies/alibaba-logging-policies/ensure-alibaba-cloud-rds-instance-sql-collector-retention-period-should-be-greater-than-180).

@@ -1,1 +1,1 @@
-More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/azure-policies/azure-networking-policies/ensure-azure-function-app-uses-the-latest-version-of-tls-encryption.html).
+More information [here](https://docs.prismacloud.io/en/enterprise-edition/policy-reference/azure-policies/azure-networking-policies/ensure-azure-function-app-uses-the-latest-version-of-tls-encryption).

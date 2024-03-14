@@ -1,1 +1,1 @@
-More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/aws-policies/aws-networking-policies/ensure-that-direct-internet-access-is-disabled-for-an-amazon-sagemaker-notebook-instance.html).
+More information [here](https://docs.prismacloud.io/en/enterprise-edition/policy-reference/aws-policies/aws-networking-policies/ensure-that-direct-internet-access-is-disabled-for-an-amazon-sagemaker-notebook-instance).

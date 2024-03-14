@@ -1,1 +1,1 @@
-More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/aws-policies/aws-iam-policies/ensure-that-all-iam-users-are-members-of-at-least-one-iam-group.html).
+More information [here](https://docs.prismacloud.io/en/enterprise-edition/policy-reference/aws-policies/aws-iam-policies/ensure-that-all-iam-users-are-members-of-at-least-one-iam-group).

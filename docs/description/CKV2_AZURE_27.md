@@ -1,1 +1,1 @@
-More information [here](https://docs.paloaltonetworks.com/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/azure-policies/azure-general-policies/azr-general-85).
+More information [here](https://docs.prismacloud.io/en/enterprise-edition/policy-reference/azure-policies/azure-general-policies/azr-general-85).

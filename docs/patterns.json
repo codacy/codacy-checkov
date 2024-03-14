@@ -1,6 +1,6 @@
 {
   "name" : "checkov",
-  "version" : "3.0.25",
+  "version" : "3.2.37",
   "patterns" : [ {
     "patternId" : "CKV2_ADO_1",
     "level" : "Warning",
@@ -695,7 +695,70 @@
     "languages" : [ ],
     "enabled" : true
   }, {
+    "patternId" : "CKV2_AZURE_39",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
     "patternId" : "CKV2_AZURE_4",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_40",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_41",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_42",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_43",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_44",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_45",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_46",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_47",
     "level" : "Warning",
     "category" : "ErrorProne",
     "parameters" : [ ],
@@ -947,7 +1010,119 @@
     "languages" : [ ],
     "enabled" : true
   }, {
+    "patternId" : "CKV2_GCP_21",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_GCP_22",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_GCP_23",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_GCP_24",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_GCP_25",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_GCP_26",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_GCP_27",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_GCP_28",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_GCP_29",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
     "patternId" : "CKV2_GCP_3",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_GCP_30",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_GCP_31",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_GCP_32",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_GCP_33",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_GCP_34",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_GCP_35",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_GCP_36",
     "level" : "Warning",
     "category" : "ErrorProne",
     "parameters" : [ ],
@@ -1004,6 +1179,55 @@
     "enabled" : true
   }, {
     "patternId" : "CKV2_GIT_1",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_IBM_1",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_IBM_2",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_IBM_3",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_IBM_4",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_IBM_5",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_IBM_6",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_IBM_7",
     "level" : "Warning",
     "category" : "ErrorProne",
     "parameters" : [ ],
@@ -2106,13 +2330,6 @@
     "enabled" : true
   }, {
     "patternId" : "CKV_AWS_187",
-    "level" : "Warning",
-    "category" : "ErrorProne",
-    "parameters" : [ ],
-    "languages" : [ ],
-    "enabled" : true
-  }, {
-    "patternId" : "CKV_AWS_188",
     "level" : "Warning",
     "category" : "ErrorProne",
     "parameters" : [ ],
@@ -3483,6 +3700,13 @@
     "enabled" : true
   }, {
     "patternId" : "CKV_AWS_364",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_AWS_365",
     "level" : "Warning",
     "category" : "ErrorProne",
     "parameters" : [ ],
@@ -5048,6 +5272,55 @@
     "languages" : [ ],
     "enabled" : true
   }, {
+    "patternId" : "CKV_AZURE_230",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_AZURE_231",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_AZURE_232",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_AZURE_233",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_AZURE_234",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_AZURE_235",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_AZURE_236",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
     "patternId" : "CKV_AZURE_24",
     "level" : "Warning",
     "category" : "Security",
@@ -5959,9 +6232,44 @@
     "languages" : [ ],
     "enabled" : true
   }, {
+    "patternId" : "CKV_GCP_119",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
     "patternId" : "CKV_GCP_12",
     "level" : "Warning",
     "category" : "Security",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_GCP_120",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_GCP_121",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_GCP_122",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_GCP_123",
+    "level" : "Warning",
+    "category" : "ErrorProne",
     "parameters" : [ ],
     "languages" : [ ],
     "enabled" : true
@@ -6004,14 +6312,6 @@
     "enabled" : true
   }, {
     "patternId" : "CKV_GCP_18",
-    "level" : "Warning",
-    "category" : "Security",
-    "subcategory" : "Auth",
-    "parameters" : [ ],
-    "languages" : [ ],
-    "enabled" : true
-  }, {
-    "patternId" : "CKV_GCP_19",
     "level" : "Warning",
     "category" : "Security",
     "subcategory" : "Auth",
@@ -8358,6 +8658,20 @@
     "enabled" : true
   }, {
     "patternId" : "CKV_PAN_15",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_PAN_16",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_PAN_17",
     "level" : "Warning",
     "category" : "ErrorProne",
     "parameters" : [ ],

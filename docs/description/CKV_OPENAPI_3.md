@@ -1,1 +1,1 @@
-More information [here](https://docs.paloaltonetworks.com/content/techdocs/en_US/prisma/prisma-cloud/prisma-cloud-code-security-policy-reference/api-policies/openapi-policies/ensure-that-security-schemes-dont-allow-cleartext-credentials-over-unencrypted-channel.html).
+More information [here](https://docs.prismacloud.io/en/enterprise-edition/policy-reference/api-policies/openapi-policies/ensure-that-security-schemes-dont-allow-cleartext-credentials-over-unencrypted-channel).
