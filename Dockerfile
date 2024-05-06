@@ -5,8 +5,6 @@ WORKDIR /workdir
 COPY requirements.txt ./
 
 RUN apk update && \
-    # remove expat package until vulnerability is fixed
-    apk del expat-dev && \
     pip install --upgrade pip && \
     pip install --no-cache-dir -r requirements.txt
 
