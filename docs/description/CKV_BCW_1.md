@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/bc_1).
+More information [here](https://docs.prismacloud.io/en/enterprise-edition/policy-reference/).

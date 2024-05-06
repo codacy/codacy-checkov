@@ -1,1 +1,1 @@
-More information [here](https://docs.prismacloud.io/en/enterprise-edition/policy-reference/secrets-policies/secrets-policy-index/ensure-repository-is-private).
+More information [here](https://docs.prismacloud.io/docs/en/enterprise-edition/policy-reference/build-integrity-policies/github-policies/ensure-repository-is-private).

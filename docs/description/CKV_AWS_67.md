@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/logging_1).
+More information [here](https://docs.prismacloud.io/en/enterprise-edition/policy-reference/aws-policies/aws-logging-policies/logging-1).

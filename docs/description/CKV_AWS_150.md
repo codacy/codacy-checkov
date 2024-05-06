@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/bc_aws_networking_62).
+More information [here](https://docs.prismacloud.io/en/enterprise-edition/policy-reference/aws-policies/aws-general-policies/bc-aws-150).

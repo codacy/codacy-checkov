@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/merge-requests-should-require-at-least-2-approvals).
+More information [here](https://docs.prismacloud.io/en/enterprise-edition/policy-reference/build-integrity-policies/github-policies/github-5).

@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/bc_gcp_networking_7).
+More information [here](https://docs.prismacloud.io/en/enterprise-edition/policy-reference/google-cloud-policies/google-cloud-networking-policies/bc-gcp-networking-27).
