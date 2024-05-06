@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/ensure-azure-acr-admin-account-is-disabled).
+More information [here](https://docs.prismacloud.io/en/enterprise-edition/policy-reference/azure-policies/azure-iam-policies/bc-azure-137.adoc).

@@ -1,6 +1,6 @@
 {
   "name" : "checkov",
-  "version" : "3.2.37",
+  "version" : "3.2.79",
   "patterns" : [ {
     "patternId" : "CKV2_ADO_1",
     "level" : "Warning",
@@ -5314,7 +5314,7 @@
     "languages" : [ ],
     "enabled" : true
   }, {
-    "patternId" : "CKV_AZURE_236",
+    "patternId" : "CKV_AZURE_237",
     "level" : "Warning",
     "category" : "ErrorProne",
     "parameters" : [ ],
@@ -6268,6 +6268,13 @@
     "enabled" : true
   }, {
     "patternId" : "CKV_GCP_123",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_GCP_124",
     "level" : "Warning",
     "category" : "ErrorProne",
     "parameters" : [ ],

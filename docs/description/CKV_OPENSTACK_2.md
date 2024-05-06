@@ -1,1 +1,1 @@
-More information [here](https://docs.bridgecrew.io/docs/bc_openstack_networking_1).
+More information [here](https://docs.prismacloud.io/en/enterprise-edition/policy-reference/openstack-policies/openstack-policy-index/bc-openstack-networking-1.adoc).

@@ -2391,10 +2391,6 @@
   "title" : "Ensure that packages with untrusted or missing signatures are not used",
   "parameters" : [ ]
 }, {
-  "patternId" : "CKV_AZURE_236",
-  "title" : "Ensure Storage Account is using the latest version of TLS encryption",
-  "parameters" : [ ]
-}, {
   "patternId" : "CKV_AZURE_208",
   "title" : "Ensure that Azure Cognitive Search maintains SLA for index updates",
   "parameters" : [ ]
@@ -2571,10 +2567,6 @@
   "title" : "Ensure that CloudFormation stacks are sending event notifications to an SNS topic",
   "parameters" : [ ]
 }, {
-  "patternId" : "CKV_K8S_110",
-  "title" : "Ensure that the --service-account-private-key-file argument is set as appropriate",
-  "parameters" : [ ]
-}, {
   "patternId" : "CKV_AWS_158",
   "title" : "Ensure that CloudWatch Log Group is encrypted by KMS",
   "parameters" : [ ]
@@ -2637,6 +2629,14 @@
 }, {
   "patternId" : "CKV2_AWS_42",
   "title" : "Ensure AWS CloudFront distribution uses custom SSL certificate",
+  "parameters" : [ ]
+}, {
+  "patternId" : "CKV_AZURE_237",
+  "title" : "Ensure dedicated data endpoints are enabled.",
+  "parameters" : [ ]
+}, {
+  "patternId" : "CKV_K8S_110",
+  "title" : "Ensure that the --service-account-private-key-file argument is set as appropriate",
   "parameters" : [ ]
 }, {
   "patternId" : "CKV2_GCP_29",
@@ -3571,10 +3571,6 @@
   "title" : "Ensure Elasticsearch Domain Logging is enabled",
   "parameters" : [ ]
 }, {
-  "patternId" : "CKV_GITLAB_1",
-  "title" : "Merge requests should require at least 2 approvals",
-  "parameters" : [ ]
-}, {
   "patternId" : "CKV_AWS_210",
   "title" : "Batch job does not define a privileged container",
   "parameters" : [ ]
@@ -3677,6 +3673,14 @@
 }, {
   "patternId" : "CKV_SECRET_5",
   "title" : "Cloudant Credentials",
+  "parameters" : [ ]
+}, {
+  "patternId" : "CKV_GCP_124",
+  "title" : "Ensure GCP Cloud Function is not configured with overly permissive Ingress setting",
+  "parameters" : [ ]
+}, {
+  "patternId" : "CKV_GITLAB_1",
+  "title" : "Merge requests should require at least 2 approvals",
   "parameters" : [ ]
 }, {
   "patternId" : "CKV_K8S_29",
