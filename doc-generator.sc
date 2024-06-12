@@ -1,8 +1,8 @@
 //> using scala "2"
-//> using lib "com.codacy::codacy-engine-scala-seed:6.1.2"
-//> using lib "com.lihaoyi::os-lib:0.10.0"
-//> using lib "com.lihaoyi::upickle:3.3.0"
-//> using lib "com.lihaoyi::requests:0.8.2"
+//> using dep com.codacy::codacy-engine-scala-seed:6.1.3
+//> using dep com.lihaoyi::os-lib:0.10.2
+//> using dep com.lihaoyi::upickle:3.3.1
+//> using dep com.lihaoyi::requests:0.8.3
 
 import com.codacy.plugins.api.results.Pattern
 import com.codacy.plugins.api.results.Result
@@ -85,7 +85,9 @@ val checkovChecks =
 
 def categoryAndSubcategoryOf(
     patternId: String
-): (Pattern.Category, Option[Pattern.Subcategory]) = patternId match {
+): (Pattern.Category, Option[Pattern.Subcategory], Option[Pattern.ScanType.Value]) = patternId match {
+  case id if id.startsWith("CKV_SECRET_") =>
+    (Pattern.Category.Security, Some(Pattern.Subcategory.Cryptography), Some(Pattern.ScanType.Secrets))
   case "CKV_AWS_1" | "CKV_AWS_9" | "CKV_AWS_10" | "CKV_AWS_11" | "CKV_AWS_12" |
       "CKV_AWS_13" | "CKV_AWS_14" | "CKV_AWS_15" | "CKV_AWS_17" | "CKV_AWS_20" |
       "CKV_AWS_32" | "CKV_AWS_33" | "CKV_AWS_40" | "CKV_AWS_41" | "CKV_AWS_45" |
@@ -102,7 +104,7 @@ def categoryAndSubcategoryOf(
       "CKV_GCP_29" | "CKV_GCP_41" | "CKV_GCP_42" | "CKV_GCP_44" | "CKV_GCP_45" |
       "CKV_GCP_46" | "CKV_GCP_47" | "CKV_GCP_48" | "CKV_GCP_49" | "CKV_GCP_60" |
       "CKV_GIT_1" | "CKV_LIN_1" | "CKV_LIN_2" =>
-    (Pattern.Category.Security, Some(Pattern.Subcategory.Auth))
+    (Pattern.Category.Security, Some(Pattern.Subcategory.Auth), Some(Pattern.ScanType.IaC))
   case "CKV_AWS_18" | "CKV_AWS_35" | "CKV_AWS_36" | "CKV_AWS_37" |
       "CKV_AWS_48" | "CKV_AWS_50" | "CKV_AWS_66" | "CKV_AWS_67" | "CKV_AWS_71" |
       "CKV_AWS_75" | "CKV_AWS_76" | "CKV_AWS_80" | "CKV_AWS_84" | "CKV_AWS_85" |
@@ -113,7 +115,7 @@ def categoryAndSubcategoryOf(
       "CKV_AZURE_37" | "CKV_AZURE_38" | "CKV_GCP_1" | "CKV_GCP_26" |
       "CKV_GCP_51" | "CKV_GCP_52" | "CKV_GCP_53" | "CKV_GCP_54" | "CKV_GCP_55" |
       "CKV_GCP_56" | "CKV_GCP_57" | "CKV_GCP_62" | "CKV_GCP_63" =>
-    (Pattern.Category.Security, Some(Pattern.Subcategory.Visibility))
+    (Pattern.Category.Security, Some(Pattern.Subcategory.Visibility), Some(Pattern.ScanType.IaC))
   case "CKV_AWS_2" | "CKV_AWS_3" | "CKV_AWS_5" | "CKV_AWS_6" | "CKV_AWS_7" |
       "CKV_AWS_8" | "CKV_AWS_16" | "CKV_AWS_19" | "CKV_AWS_22" | "CKV_AWS_24" |
       "CKV_AWS_25" | "CKV_AWS_26" | "CKV_AWS_27" | "CKV_AWS_29" | "CKV_AWS_30" |
@@ -143,17 +145,18 @@ def categoryAndSubcategoryOf(
       "CKV_K8S_35" | "CKV_K8S_36" | "CKV_K8S_37" | "CKV_K8S_38" | "CKV_K8S_39" |
       "CKV_K8S_41" | "CKV_K8S_42" | "CKV_K8S_43" | "CKV_K8S_44" |
       "CKV_K8S_45" =>
-    (Pattern.Category.Security, None)
-  case _ => (Pattern.Category.ErrorProne, None)
+    (Pattern.Category.Security, None, Some(Pattern.ScanType.IaC))
+  case _ => (Pattern.Category.ErrorProne, None, Some(Pattern.ScanType.IaC))
 }
 
 val patternSpecifications = checkovChecks.map { check =>
-  val (category, subcategory) = categoryAndSubcategoryOf(check.Id)
+  val (category, subcategory, scanType) = categoryAndSubcategoryOf(check.Id)
   Pattern.Specification(
     Pattern.Id(check.Id),
     Result.Level.Warn,
     category,
     subcategory,
+    scanType,
     enabled = true
   )
 }
