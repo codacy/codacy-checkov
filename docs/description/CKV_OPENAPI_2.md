@@ -1,1 +1,0 @@
-More information [here](https://docs.prismacloud.io/en/enterprise-edition/policy-reference/api-policies/openapi-policies/ensure-that-if-the-security-scheme-is-not-of-type-oauth2-the-array-value-must-be-empty).

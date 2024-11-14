@@ -1,1 +1,0 @@
-More information [here](https://docs.prismacloud.io/en/enterprise-edition/policy-reference/kubernetes-policies/kubernetes-policy-index/ensure-roles-and-clusterroles-that-grant-permissions-to-escalate-roles-or-clusterrole-are-minimized).
