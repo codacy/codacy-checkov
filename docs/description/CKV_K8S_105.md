@@ -1,1 +1,0 @@
-More information [here](https://docs.prismacloud.io/en/enterprise-edition/policy-reference/kubernetes-policies/kubernetes-policy-index/ensure-that-the-api-server-only-makes-use-of-strong-cryptographic-ciphers).

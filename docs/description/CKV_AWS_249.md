@@ -1,1 +1,0 @@
-More information [here](https://docs.prismacloud.io/en/enterprise-edition/policy-reference/aws-policies/aws-iam-policies/ensure-the-aws-execution-role-arn-and-task-role-arn-are-different-in-ecs-task-definitions).

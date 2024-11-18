@@ -1,1 +1,0 @@
-More information [here](https://docs.prismacloud.io/en/enterprise-edition/policy-reference/azure-policies/azure-networking-policies/ensure-public-network-access-enabled-is-set-to-false-for-mysql-servers).

@@ -1,1 +1,0 @@
-More information [here](https://docs.prismacloud.io/en/enterprise-edition/policy-reference/aws-policies/aws-general-policies/ensure-aws-code-artifact-domain-is-encrypted-by-kms-using-a-customer-managed-key-cmk).

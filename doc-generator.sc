@@ -181,7 +181,10 @@ os.write.over(
   Json.prettyPrint(Json.toJson(specification)) + "\n"
 )
 
-os.remove.all(os.pwd / "docs" / "description")
+// historically, compiled md files were checked in and then discarded at build time
+// by this generator. With AI-generated docs, we will keep those checked in so resetting
+// the directory is not necessary and in fact unhelpful.
+// os.remove.all(os.pwd / "docs" / "description")
 
 os.write.over(
   os.pwd / "docs" / "description" / "description.json",
