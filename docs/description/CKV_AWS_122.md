@@ -1,0 +1,1 @@
+More information [here](https://docs.prismacloud.io/en/enterprise-edition/policy-reference/aws-policies/aws-networking-policies/ensure-that-direct-internet-access-is-disabled-for-an-amazon-sagemaker-notebook-instance).

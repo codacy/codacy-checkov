@@ -1,0 +1,1 @@
+More information [here](https://docs.prismacloud.io/en/enterprise-edition/policy-reference/azure-policies/azure-general-policies/ensure-that-net-framework-version-is-the-latest-if-used-as-a-part-of-the-web-app).

@@ -1,0 +1,1 @@
+More information [here](https://docs.prismacloud.io/en/enterprise-edition/policy-reference/aws-policies/aws-general-policies/ensure-aws-all-data-stored-in-the-elasticsearch-domain-is-encrypted-using-a-customer-managed-key-cmk).

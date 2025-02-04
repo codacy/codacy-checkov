@@ -1,0 +1,1 @@
+More information [here](https://docs.prismacloud.io/en/enterprise-edition/policy-reference/kubernetes-policies/kubernetes-policy-index/granting-create-permissions-to-nodesproxy-or-podsexec-sub-resources-allows-potential-privilege-escalation).

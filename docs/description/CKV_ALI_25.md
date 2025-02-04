@@ -1,0 +1,1 @@
+More information [here](https://docs.prismacloud.io/en/enterprise-edition/policy-reference/alibaba-policies/alibaba-logging-policies/ensure-alibaba-cloud-rds-instance-sql-collector-retention-period-should-be-greater-than-180).

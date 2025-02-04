@@ -1,0 +1,1 @@
+More information [here](https://docs.prismacloud.io/en/enterprise-edition/policy-reference/alibaba-policies/alibaba-kubernetes-policies/ensure-alibaba-cloud-kubernetes-node-pools-are-set-to-auto-repair).

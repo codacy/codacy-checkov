@@ -1,7 +1,743 @@
 {
   "name" : "checkov",
-  "version" : "3.2.79",
+  "version" : "3.2.362",
   "patterns" : [ {
+    "patternId" : "CKV2_ADO_1",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_ANSIBLE_1",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_ANSIBLE_2",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_ANSIBLE_3",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_ANSIBLE_4",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_ANSIBLE_5",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_ANSIBLE_6",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_1",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_10",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_11",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_12",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_14",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_15",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_16",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_18",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_19",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_2",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_20",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_21",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_22",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_23",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_27",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_28",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_29",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_3",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_30",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_31",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_32",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_33",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_34",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_35",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_36",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_37",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_38",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_39",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_4",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_40",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_41",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_42",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_43",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_44",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_45",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_46",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_47",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_48",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_49",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_5",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_50",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_51",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_52",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_53",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_54",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_55",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_56",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_57",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_58",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_59",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_6",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_60",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_61",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_62",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_63",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_64",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_65",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_66",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_68",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_69",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_7",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_70",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_71",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_72",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_73",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_8",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AWS_9",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_1",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_10",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_11",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_12",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_13",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_14",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_15",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_16",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_17",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_19",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_2",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_20",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_21",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_22",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_23",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_24",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_25",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_26",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
     "patternId" : "CKV2_AZURE_27",
     "level" : "Warning",
     "category" : "ErrorProne",
@@ -10,7 +746,863 @@
     "languages" : [ ],
     "enabled" : true
   }, {
+    "patternId" : "CKV2_AZURE_28",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_29",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_3",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_30",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_31",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_32",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_33",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_34",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_35",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_36",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_37",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_38",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_39",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_4",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_40",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_41",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_42",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_43",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_44",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_45",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_46",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_47",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
     "patternId" : "CKV2_AZURE_48",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_49",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_5",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_50",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_51",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_52",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_53",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_54",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_55",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_6",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_7",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_8",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_AZURE_9",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_DOCKER_1",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_DOCKER_10",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_DOCKER_11",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_DOCKER_12",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_DOCKER_13",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_DOCKER_14",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_DOCKER_15",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_DOCKER_16",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_DOCKER_17",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_DOCKER_2",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_DOCKER_3",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_DOCKER_4",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_DOCKER_5",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_DOCKER_6",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_DOCKER_7",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_DOCKER_8",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_DOCKER_9",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_GCP_1",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_GCP_10",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_GCP_11",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_GCP_12",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_GCP_13",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_GCP_14",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_GCP_15",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_GCP_16",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_GCP_17",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_GCP_18",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_GCP_19",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_GCP_2",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_GCP_20",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_GCP_21",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_GCP_22",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_GCP_23",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_GCP_24",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_GCP_25",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_GCP_26",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_GCP_27",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_GCP_28",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_GCP_29",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_GCP_3",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_GCP_30",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_GCP_31",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_GCP_32",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_GCP_33",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_GCP_34",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_GCP_35",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_GCP_36",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_GCP_4",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_GCP_5",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_GCP_6",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_GCP_7",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_GCP_8",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_GCP_9",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_GHA_1",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_GIT_1",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_IBM_1",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_IBM_2",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_IBM_3",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_IBM_4",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_IBM_5",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_IBM_7",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_K8S_1",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_K8S_2",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_K8S_3",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_K8S_4",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_K8S_5",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_K8S_6",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_OCI_1",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_OCI_2",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_OCI_3",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_OCI_4",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_OCI_5",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV2_OCI_6",
     "level" : "Warning",
     "category" : "ErrorProne",
     "scanType" : "IaC",
@@ -793,6 +2385,22 @@
     "enabled" : true
   }, {
     "patternId" : "CKV_AWS_143",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_AWS_144",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_AWS_145",
     "level" : "Warning",
     "category" : "ErrorProne",
     "scanType" : "IaC",
@@ -2801,9 +4409,105 @@
     "languages" : [ ],
     "enabled" : true
   }, {
+    "patternId" : "CKV_AWS_373",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_AWS_374",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_AWS_375",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_AWS_376",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_AWS_377",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_AWS_378",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_AWS_379",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
     "patternId" : "CKV_AWS_38",
     "level" : "Warning",
     "category" : "Security",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_AWS_380",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_AWS_381",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_AWS_382",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_AWS_383",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_AWS_384",
+    "level" : "Warning",
+    "category" : "ErrorProne",
     "scanType" : "IaC",
     "parameters" : [ ],
     "languages" : [ ],
@@ -3573,10 +5277,26 @@
     "languages" : [ ],
     "enabled" : true
   }, {
+    "patternId" : "CKV_AZURE_119",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
     "patternId" : "CKV_AZURE_12",
     "level" : "Warning",
     "category" : "Security",
     "subcategory" : "Visibility",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_AZURE_120",
+    "level" : "Warning",
+    "category" : "ErrorProne",
     "scanType" : "IaC",
     "parameters" : [ ],
     "languages" : [ ],
@@ -4636,6 +6356,86 @@
     "level" : "Warning",
     "category" : "Security",
     "subcategory" : "Visibility",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_AZURE_240",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_AZURE_241",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_AZURE_242",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_AZURE_243",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_AZURE_244",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_AZURE_245",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_AZURE_246",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_AZURE_247",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_AZURE_248",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_AZURE_249",
+    "level" : "Warning",
+    "category" : "ErrorProne",
     "scanType" : "IaC",
     "parameters" : [ ],
     "languages" : [ ],
@@ -5719,6 +7519,14 @@
     "enabled" : true
   }, {
     "patternId" : "CKV_GCP_124",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_GCP_125",
     "level" : "Warning",
     "category" : "ErrorProne",
     "scanType" : "IaC",
@@ -7227,6 +9035,14 @@
     "languages" : [ ],
     "enabled" : true
   }, {
+    "patternId" : "CKV_K8S_159",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
     "patternId" : "CKV_K8S_16",
     "level" : "Warning",
     "category" : "Security",
@@ -7885,6 +9701,14 @@
     "languages" : [ ],
     "enabled" : true
   }, {
+    "patternId" : "CKV_NCP_18",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
     "patternId" : "CKV_NCP_19",
     "level" : "Warning",
     "category" : "ErrorProne",
@@ -7934,6 +9758,14 @@
     "enabled" : true
   }, {
     "patternId" : "CKV_NCP_25",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_NCP_26",
     "level" : "Warning",
     "category" : "ErrorProne",
     "scanType" : "IaC",
@@ -8437,6 +10269,22 @@
     "languages" : [ ],
     "enabled" : true
   }, {
+    "patternId" : "CKV_PAN_16",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_PAN_17",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
     "patternId" : "CKV_PAN_2",
     "level" : "Warning",
     "category" : "ErrorProne",
@@ -8659,6 +10507,118 @@
     "category" : "Security",
     "subcategory" : "Cryptography",
     "scanType" : "Secrets",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_TC_1",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_TC_10",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_TC_11",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_TC_12",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_TC_13",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_TC_14",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_TC_2",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_TC_3",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_TC_4",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_TC_5",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_TC_6",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_TC_7",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_TC_8",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_TC_9",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
     "parameters" : [ ],
     "languages" : [ ],
     "enabled" : true

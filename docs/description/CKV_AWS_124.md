@@ -1,0 +1,1 @@
+More information [here](https://docs.prismacloud.io/en/enterprise-edition/policy-reference/aws-policies/aws-logging-policies/ensure-that-cloudformation-stacks-are-sending-event-notifications-to-an-sns-topic).

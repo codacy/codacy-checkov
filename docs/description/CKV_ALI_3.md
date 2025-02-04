@@ -1,0 +1,1 @@
+More information [here](https://docs.prismacloud.io/en/enterprise-edition/policy-reference/alibaba-policies/alibaba-networking-policies/ensure-no-alibaba-cloud-security-groups-allow-ingress-from-00000-to-port-3389).

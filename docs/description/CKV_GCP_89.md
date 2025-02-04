@@ -1,0 +1,1 @@
+More information [here](https://docs.prismacloud.io/en/enterprise-edition/policy-reference/google-cloud-policies/google-cloud-public-policies/ensure-gcp-vertex-ai-workbench-does-not-have-public-ips).

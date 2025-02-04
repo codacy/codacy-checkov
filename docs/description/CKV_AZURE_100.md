@@ -1,0 +1,1 @@
+More information [here](https://docs.prismacloud.io/en/enterprise-edition/policy-reference/azure-policies/azure-general-policies/ensure-that-cosmos-db-accounts-have-customer-managed-keys-to-encrypt-data-at-rest).

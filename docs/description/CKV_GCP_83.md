@@ -1,0 +1,1 @@
+More information [here](https://docs.prismacloud.io/en/enterprise-edition/policy-reference/google-cloud-policies/google-cloud-general-policies/ensure-gcp-pubsub-topics-are-encrypted-with-customer-supplied-encryption-keys-csek).
