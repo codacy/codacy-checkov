@@ -1,0 +1,1 @@
+More information [here](https://docs.prismacloud.io/en/enterprise-edition/policy-reference/kubernetes-policies/kubernetes-policy-index/ensure-that-the-etcd-certfile-and-etcd-keyfile-arguments-are-set-as-appropriate).

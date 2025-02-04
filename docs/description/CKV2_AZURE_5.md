@@ -1,0 +1,1 @@
+More information [here](https://docs.prismacloud.io/en/enterprise-edition/policy-reference/azure-policies/azure-general-policies/ensure-that-va-setting-also-send-email-notifications-to-admins-and-subscription-owners-is-set-for-an-sql-server).

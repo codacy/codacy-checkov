@@ -1,0 +1,1 @@
+More information [here](https://docs.prismacloud.io/en/enterprise-edition/policy-reference/oci-policies/iam/oci-iam-password-policy-for-local-non-federated-users-has-a-minimum-length-of-14-characters).

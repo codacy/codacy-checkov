@@ -1,0 +1,1 @@
+More information [here](https://docs.prismacloud.io/en/enterprise-edition/policy-reference/aws-policies/aws-general-policies/ensure-aws-memorydb-is-encrypted-at-rest-by-aws-key-management-service-kms-using-cmks).

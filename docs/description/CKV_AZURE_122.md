@@ -1,0 +1,1 @@
+More information [here](https://docs.prismacloud.io/en/enterprise-edition/policy-reference/azure-policies/azure-networking-policies/ensure-that-application-gateway-uses-waf-in-detection-or-prevention-modes).

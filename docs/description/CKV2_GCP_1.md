@@ -1,0 +1,1 @@
+More information [here](https://docs.prismacloud.io/en/enterprise-edition/policy-reference/google-cloud-policies/google-cloud-kubernetes-policies/ensure-gke-clusters-are-not-running-using-the-compute-engine-default-service-account).

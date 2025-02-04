@@ -1,0 +1,1 @@
+More information [here](https://docs.prismacloud.io/en/enterprise-edition/policy-reference/google-cloud-policies/logging-policies-1/ensure-that-retention-policies-on-log-buckets-are-configured-using-bucket-lock).

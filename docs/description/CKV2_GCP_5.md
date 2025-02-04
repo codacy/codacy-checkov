@@ -1,0 +1,1 @@
+More information [here](https://docs.prismacloud.io/en/enterprise-edition/policy-reference/google-cloud-policies/logging-policies-1/ensure-that-cloud-audit-logging-is-configured-properly-across-all-services-and-all-users-from-a-project).
