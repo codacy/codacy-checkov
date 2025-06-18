@@ -14,9 +14,10 @@ workflows:
           persist_to_workspace: true
           cmd: |
             # Install scala-cli
+            sudo apt-get update # This is failing due to key signature problems
+            sudo apt-get install -y build-essential manpages-dev wget
             curl -sSLf https://virtuslab.github.io/scala-cli-packages/scala-setup.sh | sh
             source ~/.profile
-            sudo apt-get update # This is failing due to key signature problems
 
             # update java
             sudo apt install openjdk-17-jre
