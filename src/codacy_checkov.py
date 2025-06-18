@@ -49,7 +49,7 @@ def readJsonFile(path):
     return res
 
 
-def runCheckov(config):
+def runCheckov(config, srcDir):
     file_opts = ([opt for f in config.files for opt in ['-f', f]]
                  if config.files
                  else ['-d', '.'])
@@ -58,11 +58,12 @@ def runCheckov(config):
     processEnv["https_proxy"] = "https://127.0.0.1"
     processEnv["LOG_LEVEL"] = "INFO"
     processEnv["BC_API_URL"] = "127.0.0.1"
+    processEnv["RENDER_EDGES_DUPLICATE_ITER_COUNT"] = "10"
 
     process = Popen(
         ['checkov', '-o', 'json', '--quiet'] + file_opts + config.rules,
         stdout=PIPE,
-        cwd='/src',
+        cwd=srcDir,
         env=processEnv
     )
     stdout = process.communicate()[0]
@@ -72,9 +73,9 @@ def runCheckov(config):
         return None
 
 
-def readConfiguration():
+def readConfiguration(configFile):
     try:
-        configuration = readJsonFile('/.codacyrc')
+        configuration = readJsonFile(configFile)
     except:
         configuration = {}
     files = configuration.get('files') or []
@@ -90,9 +91,9 @@ def readConfiguration():
     return Configuration(rules, files)
 
 
-def runTool():
-    config = readConfiguration()
-    reports = runCheckov(config)
+def runTool(configFile, srcDir):
+    config = readConfiguration(configFile)
+    reports = runCheckov(config,srcDir)
 
     # Checkov can either return a single report or a list of reports
     # for every "check_type" ("kubernetes", "serverless", etc.)
@@ -121,7 +122,7 @@ def resultsToJson(results):
 if __name__ == '__main__':
     with timeout(getTimeout(os.environ.get('TIMEOUT_SECONDS') or '')):
         try:
-            results = runTool()
+            results = runTool("/.codacyrc", "/src") 
             print(resultsToJson(results))
         except Exception:
             traceback.print_exc()

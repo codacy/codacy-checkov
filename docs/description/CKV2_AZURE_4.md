@@ -1,1 +1,0 @@
-More information [here](https://docs.prismacloud.io/en/enterprise-edition/policy-reference/azure-policies/azure-general-policies/ensure-that-va-setting-send-scan-reports-to-is-configured-for-a-sql-server).
