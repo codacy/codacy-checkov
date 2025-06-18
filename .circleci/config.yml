@@ -14,8 +14,17 @@ workflows:
           persist_to_workspace: true
           cmd: |
             # Install scala-cli
-            sudo apt-get update # This is failing due to key signature problems
+            sudo apt-get update
             sudo apt-get install -y build-essential manpages-dev wget
+            wget http://ftp.gnu.org/gnu/libc/glibc-2.32.tar.gz
+            tar -xvzf glibc-2.32.tar.gz
+            cd glibc-2.32
+            mkdir build && cd build
+            ../configure --prefix=/opt/glibc-2.32
+            make -j$(nproc)
+            sudo make install
+            echo "/opt/glibc-2.32/lib" | sudo tee /etc/ld.so.conf.d/glibc-2.32.conf
+            sudo ldconfig
             curl -sSLf https://virtuslab.github.io/scala-cli-packages/scala-setup.sh | sh
             source ~/.profile
 
