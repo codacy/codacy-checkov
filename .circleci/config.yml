@@ -7,44 +7,45 @@ orbs:
 workflows:
   compile_test_deploy:
     jobs:
-      - codacy/checkout_and_version
-      - codacy/shell:
-          name: build_docker_and_test
-          context: CodacyCircleCI
-          persist_to_workspace: true
-          docker:
-            - image: ubuntu:22.04
-          cmd: |
-              apt-get update && apt-get install -y curl sudo openjdk-17-jre python3-pip docker.io
-              curl -sSLf https://virtuslab.github.io/scala-cli-packages/scala-setup.sh | sh
-              source ~/.profile
+      docker:
+        - image: ubuntu:22.04
+      steps:
+        - codacy/checkout_and_version
+        - codacy/shell:
+            name: build_docker_and_test
+            context: CodacyCircleCI
+            persist_to_workspace: true
+            cmd: |
+                apt-get update && apt-get install -y curl sudo openjdk-17-jre python3-pip docker.io
+                curl -sSLf https://virtuslab.github.io/scala-cli-packages/scala-setup.sh | sh
+                source ~/.profile
 
-              python3 -m pip install --upgrade pip
-              pip3 install -r requirements.txt
+                python3 -m pip install --upgrade pip
+                pip3 install -r requirements.txt
 
-              # Run doc-generator
-              scala-cli run doc-generator.sc
+                # Run doc-generator
+                scala-cli run doc-generator.sc
 
-              # Build and save Docker image
-              docker build -t $CIRCLE_PROJECT_REPONAME:latest .
-              docker save --output docker-image.tar $CIRCLE_PROJECT_REPONAME:latest
-          requires:
-            - codacy/checkout_and_version
-      - codacy_plugins_test/run:
-          name: plugins_test
-          run_multiple_tests: true
-          requires:
-            - build_docker_and_test
-      - codacy/publish_docker:
-          context: CodacyDocker
-          requires:
-            - plugins_test
-          filters:
-            branches:
-              only:
-                - master
-      - codacy/tag_version:
-          name: tag_version
-          context: CodacyAWS
-          requires:
-            - codacy/publish_docker
+                # Build and save Docker image
+                docker build -t $CIRCLE_PROJECT_REPONAME:latest .
+                docker save --output docker-image.tar $CIRCLE_PROJECT_REPONAME:latest
+            requires:
+              - codacy/checkout_and_version
+        - codacy_plugins_test/run:
+            name: plugins_test
+            run_multiple_tests: true
+            requires:
+              - build_docker_and_test
+        - codacy/publish_docker:
+            context: CodacyDocker
+            requires:
+              - plugins_test
+            filters:
+              branches:
+                only:
+                  - master
+        - codacy/tag_version:
+            name: tag_version
+            context: CodacyAWS
+            requires:
+              - codacy/publish_docker
