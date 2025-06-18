@@ -13,12 +13,6 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Install scala-cli
-          command: |
-            curl -sSLf https://virtuslab.github.io/scala-cli-packages/scala-setup.sh | sh
-            source ~/.profile
-            sudo apt-get update || true
-      - run:
           name: Install Java
           command: |
             sudo apt install -y openjdk-17-jre
@@ -30,7 +24,11 @@ jobs:
             pip3 install -r requirements.txt
       - run:
           name: Run doc-generator
-          command: scala-cli run doc-generator.sc
+          command: |
+            curl -sSLf https://virtuslab.github.io/scala-cli-packages/scala-setup.sh | sh
+            source ~/.profile
+            sudo apt-get update || true
+            scala-cli run doc-generator.sc
       - run:
           name: Build and save Docker image
           command: |
