@@ -7,7 +7,7 @@ orbs:
 jobs:
   build_docker_and_test:
     docker:
-      - image: cimg/ubuntu:22.04
+      - image: cimg/base:2025.06
     environment:
       PYTHONUNBUFFERED: 1
     steps:
