@@ -15,6 +15,7 @@ jobs:
       - run:
           name: Install Java
           command: |
+            sudo apt-get update || true
             sudo apt install -y openjdk-17-jre
             sudo update-java-alternatives --auto
       - run:
@@ -27,7 +28,6 @@ jobs:
           command: |
             curl -sSLf https://virtuslab.github.io/scala-cli-packages/scala-setup.sh | sh
             source ~/.profile
-            sudo apt-get update || true
             scala-cli run doc-generator.sc
       - run:
           name: Build and save Docker image
