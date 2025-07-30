@@ -1,0 +1,1 @@
+More information [here](https://docs.prismacloud.io/en/enterprise-edition/policy-reference/azure-policies/azure-general-policies/ensure-allow-access-to-azure-services-for-postgresql-database-server-is-disabled).

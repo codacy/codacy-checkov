@@ -1,0 +1,1 @@
+More information [here](https://docs.prismacloud.io/en/enterprise-edition/policy-reference/google-cloud-policies/google-cloud-iam-policies/ensure-that-a-mysql-database-instance-does-not-allow-anyone-to-connect-with-administrative-privileges).
