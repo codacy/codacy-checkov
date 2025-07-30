@@ -1,8 +1,8 @@
 //> using scala "2"
-//> using dep com.codacy::codacy-engine-scala-seed:6.1.4
+//> using dep com.codacy::codacy-engine-scala-seed:6.1.5
 //> using dep com.lihaoyi::os-lib:0.11.4
 //> using dep com.lihaoyi::upickle:4.2.1
-//> using dep com.lihaoyi::requests:0.9.0
+//> using dep com.lihaoyi::requests:0.8.0
 
 import com.codacy.plugins.api.results.Pattern
 import com.codacy.plugins.api.results.Result

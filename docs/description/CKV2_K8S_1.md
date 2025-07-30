@@ -1,0 +1,1 @@
+More information [here](https://docs.prismacloud.io/en/enterprise-edition/policy-reference/kubernetes-policies/kubernetes-policy-index/rolebinding-should-not-allow-privilege-escalation-to-a-serviceaccount-or-node-on-other-rolebinding).
