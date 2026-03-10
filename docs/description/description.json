@@ -4088,7 +4088,7 @@
   "parameters" : [ ]
 }, {
   "patternId" : "CKV_AWS_174",
-  "title" : "Verify CloudFront Distribution Viewer Certificate is using TLS v1.2",
+  "title" : "Verify CloudFront Distribution Viewer Certificate is using TLS v1.2 or higher",
   "parameters" : [ ]
 }, {
   "patternId" : "CKV_K8S_9",
