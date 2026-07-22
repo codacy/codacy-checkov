@@ -40,7 +40,7 @@ class Configuration:
         self.files = files
 
 
-def toJson(obj): 
+def toJson(obj):
     return jsonpickle.encode(obj, unpicklable=False, keys=True)
 
 
