@@ -40,7 +40,8 @@ class Configuration:
         self.files = files
 
 
-def toJson(obj): return jsonpickle.encode(obj, unpicklable=False, keys=True)
+def toJson(obj): 
+    return jsonpickle.encode(obj, unpicklable=False, keys=True)
 
 
 def readJsonFile(path):
@@ -73,8 +74,7 @@ def runCheckov(config, srcDir):
     checkov_config = findCheckovConfigFile(srcDir)
     config_file_opts = ['--config-file', checkov_config] if checkov_config else []
 
-    # If rules are specified, it's because the tool is relying on the UI patterns. If not, it's using
-    # the configuration file
+    # If rules are specified, it's because the tool is relying on the UI patterns. If not, it's using the configuration file
     if len(config.rules[1]):
         command = ['checkov', '-o', 'json', '--quiet', '--skip-download'] + config.rules + file_opts
     else:
@@ -88,7 +88,7 @@ def runCheckov(config, srcDir):
     )
 
     stdout = process.communicate()[0]
-    
+
     if len(stdout) > 0:
         return json.loads(stdout.decode('utf-8'))
     else:
