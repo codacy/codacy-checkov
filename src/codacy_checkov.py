@@ -40,13 +40,25 @@ class Configuration:
         self.files = files
 
 
-def toJson(obj): return jsonpickle.encode(obj, unpicklable=False)
+def toJson(obj):
+    return jsonpickle.encode(obj, unpicklable=False, keys=True)
 
 
 def readJsonFile(path):
     with open(path, 'r') as file:
         res = json.loads(file.read())
     return res
+
+
+CHECKOV_CONFIG_FILES = ['.checkov.yaml', '.checkov.yml', '.checkov.json', '.checkov.toml']
+
+
+def findCheckovConfigFile(srcDir):
+    for name in CHECKOV_CONFIG_FILES:
+        path = os.path.join(srcDir, name)
+        if os.path.isfile(path):
+            return path
+    return None
 
 
 def runCheckov(config, srcDir):
@@ -57,16 +69,28 @@ def runCheckov(config, srcDir):
     processEnv["http_proxy"] = "http://127.0.0.1"
     processEnv["https_proxy"] = "https://127.0.0.1"
     processEnv["LOG_LEVEL"] = "INFO"
-    processEnv["BC_API_URL"] = "127.0.0.1"
     processEnv["RENDER_EDGES_DUPLICATE_ITER_COUNT"] = "10"
 
+    checkov_config = findCheckovConfigFile(srcDir)
+    config_file_opts = ['--config-file', checkov_config] if checkov_config else []
+
+    # If rules are specified, it's because the tool is relying on the UI patterns. If not, it's using the configuration file
+    if config.rules == [] and config_file_opts != []: #if rules are empty but there's a config file
+        command = ['checkov', '-o', 'json', '--quiet', '--skip-download'] + config_file_opts + file_opts
+    elif config.rules == [] and config_file_opts == []: #if rules are empty but there's no config file - testing purposes
+        command = ['checkov', '-o', 'json', '--quiet', '--skip-download', '-c', ''] + file_opts
+    else: # if there are rules
+        command = ['checkov', '-o', 'json', '--quiet', '--skip-download'] + config.rules + file_opts
+
     process = Popen(
-        ['checkov', '-o', 'json', '--quiet'] + file_opts + config.rules,
+        command,
         stdout=PIPE,
         cwd=srcDir,
         env=processEnv
     )
+
     stdout = process.communicate()[0]
+
     if len(stdout) > 0:
         return json.loads(stdout.decode('utf-8'))
     else:
@@ -86,6 +110,7 @@ def readConfiguration(configFile):
         rules = ['-c', ','.join([p['patternId']
                                  for p in checkov.get('patterns') or []])]
     else:
+        checkov = tools[0]
         rules = []
 
     return Configuration(rules, files)

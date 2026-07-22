@@ -1,0 +1,3 @@
+check:
+  - CKV_AWS_49
+  - CKV_K8S_38

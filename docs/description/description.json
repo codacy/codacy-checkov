@@ -2723,6 +2723,10 @@
   "title" : "Ensure that SQL server disables public network access",
   "parameters" : [ ]
 }, {
+  "patternId" : "CKV_AWS_393",
+  "title" : "Ensure AWS GitHub Actions OIDC authorization policies only allow safe claims and claim order on IAM role",
+  "parameters" : [ ]
+}, {
   "patternId" : "CKV_AWS_124",
   "title" : "Ensure that CloudFormation stacks are sending event notifications to an SNS topic",
   "parameters" : [ ]

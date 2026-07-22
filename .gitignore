@@ -13,3 +13,7 @@
 
 .DS_Store
 .github/instructions/
+
+.venv
+
+.codacyrc
