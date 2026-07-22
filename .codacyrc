@@ -1,0 +1,13 @@
+{
+  "tools": [
+    {
+      "name": "checkov",
+      "patterns": [
+        {
+          "patternId": "CKV_AWS_49",
+          "parameters": []
+        }
+      ]
+    }
+  ]
+}
