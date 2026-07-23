@@ -50,7 +50,7 @@ def readJsonFile(path):
     return res
 
 
-CHECKOV_CONFIG_FILES = ['.checkov.yaml', '.checkov.yml', '.checkov.json', '.checkov.toml']
+CHECKOV_CONFIG_FILES = ['.checkov.yaml', '.checkov.yml']
 
 
 def findCheckovConfigFile(srcDir):
