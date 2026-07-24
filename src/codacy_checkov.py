@@ -75,10 +75,8 @@ def runCheckov(config, srcDir):
     config_file_opts = ['--config-file', checkov_config] if checkov_config else []
 
     # If rules are specified, it's because the tool is relying on the UI patterns. If not, it's using the configuration file
-    if config.rules == [] and config_file_opts != []: #if rules are empty but there's a config file
+    if len(config.rules[1]) == 0 and config_file_opts != []: #if rules are empty but there's a config file
         command = ['checkov', '-o', 'json', '--quiet', '--skip-download'] + config_file_opts + file_opts
-    elif config.rules == [] and config_file_opts == []: #if rules are empty but there's no config file - testing purposes
-        command = ['checkov', '-o', 'json', '--quiet', '--skip-download', '-c', ''] + file_opts
     else: # if there are rules
         command = ['checkov', '-o', 'json', '--quiet', '--skip-download'] + config.rules + file_opts
 
@@ -109,9 +107,6 @@ def readConfiguration(configFile):
         checkov = tools[0]
         rules = ['-c', ','.join([p['patternId']
                                  for p in checkov.get('patterns') or []])]
-    else:
-        checkov = tools[0]
-        rules = []
 
     return Configuration(rules, files)
 
