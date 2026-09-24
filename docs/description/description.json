@@ -3611,6 +3611,10 @@
   "title" : "Ensure that the --authorization-mode argument is not set to AlwaysAllow",
   "parameters" : [ ]
 }, {
+  "patternId" : "CKV_AWS_394",
+  "title" : "Ensure aws_availability_zones data source pins zone identity so its result set does not silently expand when AWS adds an Availability Zone",
+  "parameters" : [ ]
+}, {
   "patternId" : "CKV_AWS_58",
   "title" : "Ensure EKS Cluster has Secrets Encryption Enabled",
   "parameters" : [ ]

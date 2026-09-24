@@ -1,6 +1,6 @@
 {
   "name" : "checkov",
-  "version" : "3.3.8",
+  "version" : "3.3.19",
   "patterns" : [ {
     "patternId" : "CKV2_ADO_1",
     "level" : "Warning",
@@ -4658,6 +4658,14 @@
     "enabled" : true
   }, {
     "patternId" : "CKV_AWS_393",
+    "level" : "Warning",
+    "category" : "ErrorProne",
+    "scanType" : "IaC",
+    "parameters" : [ ],
+    "languages" : [ ],
+    "enabled" : true
+  }, {
+    "patternId" : "CKV_AWS_394",
     "level" : "Warning",
     "category" : "ErrorProne",
     "scanType" : "IaC",
