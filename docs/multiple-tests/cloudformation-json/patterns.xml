@@ -1,0 +1,4 @@
+<module name="root">
+    <module name="CKV_AWS_18" />
+    <module name="CKV_AWS_21" />
+</module>

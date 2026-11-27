@@ -8,10 +8,19 @@ from contextlib import contextmanager
 import traceback
 
 
+checkovProcess = None
+
+
+def onTimeout(signum, frame):
+    if checkovProcess is not None:
+        checkovProcess.kill()
+    sys.exit(2)
+
+
 @contextmanager
 def timeout(time):
     # Register a function to raise a TimeoutError on the signal.
-    signal.signal(signal.SIGALRM, lambda: sys.exit(2))
+    signal.signal(signal.SIGALRM, onTimeout)
     # Schedule the signal to be sent after ``time``.
     signal.alarm(time)
     yield
@@ -61,6 +70,75 @@ def findCheckovConfigFile(srcDir):
     return None
 
 
+YAML_FRAMEWORKS = ['kubernetes', 'cloudformation', 'openapi', 'ansible', 'argo_workflows']
+JSON_FRAMEWORKS = ['kubernetes', 'cloudformation', 'openapi', 'arm', 'terraform_plan', 'terraform_json']
+
+FRAMEWORKS_BY_EXTENSION = {
+    '.tf': ['terraform'],
+    '.json': JSON_FRAMEWORKS,
+    '.yaml': YAML_FRAMEWORKS,
+    '.yml': YAML_FRAMEWORKS,
+    '.template': ['cloudformation'],
+    '.bicep': ['bicep'],
+}
+
+FRAMEWORKS_BY_FILE_NAME = {
+    'Chart.yaml': ['helm'],
+    'kustomization.yaml': ['kustomize'],
+    'kustomization.yml': ['kustomize'],
+    'Dockerfile': ['dockerfile'],
+    'serverless.yml': ['serverless'],
+    'serverless.yaml': ['serverless'],
+    'bitbucket-pipelines.yml': ['bitbucket_pipelines'],
+    'bitbucket-pipelines.yaml': ['bitbucket_pipelines'],
+    'azure-pipelines.yml': ['azure_pipelines'],
+    'azure-pipelines.yaml': ['azure_pipelines'],
+}
+
+
+def frameworksForFile(path):
+    name = os.path.basename(path)
+    extension = os.path.splitext(name)[1]
+    frameworks = FRAMEWORKS_BY_FILE_NAME.get(name, []) + FRAMEWORKS_BY_EXTENSION.get(extension, [])
+    normalized = '/' + os.path.normpath(path).replace(os.sep, '/').lstrip('/')
+    if extension in ('.yml', '.yaml'):
+        if '/.github/workflows/' in normalized:
+            frameworks = frameworks + ['github_actions']
+        if '/.circleci/' in normalized:
+            frameworks = frameworks + ['circleci_pipelines']
+        if name.endswith(('.gitlab-ci.yml', '.gitlab-ci.yaml')):
+            frameworks = frameworks + ['gitlab_ci']
+    return frameworks
+
+
+def listFiles(srcDir):
+    for root, dirs, files in os.walk(srcDir):
+        dirs[:] = [d for d in dirs if d != '.git']
+        for name in files:
+            yield os.path.relpath(os.path.join(root, name), srcDir)
+
+
+def secretsEnabled(rules):
+    patternIds = rules[1].split(',') if rules[1] else []
+    return patternIds == [] or any(p.startswith('CKV_SECRET_') for p in patternIds)
+
+
+def selectFrameworks(files, rules):
+    frameworks = []
+    for f in files:
+        for framework in frameworksForFile(f):
+            if framework not in frameworks:
+                frameworks.append(framework)
+    if secretsEnabled(rules):
+        frameworks.append('secrets')
+    return frameworks
+
+
+def configFileSetsFrameworks(configFile):
+    with open(configFile, 'r') as file:
+        return any(line.split(':')[0].strip() in ('framework', 'skip-framework') for line in file)
+
+
 def runCheckov(config, srcDir):
     file_opts = ([opt for f in config.files for opt in ['-f', f]]
                  if config.files
@@ -70,6 +148,7 @@ def runCheckov(config, srcDir):
     processEnv["https_proxy"] = "https://127.0.0.1"
     processEnv["LOG_LEVEL"] = "INFO"
     processEnv["RENDER_EDGES_DUPLICATE_ITER_COUNT"] = "10"
+    processEnv.setdefault("CHECKOV_PARALLELIZATION_TYPE", "none")
 
     checkov_config = findCheckovConfigFile(srcDir)
     config_file_opts = ['--config-file', checkov_config] if checkov_config else []
@@ -77,17 +156,28 @@ def runCheckov(config, srcDir):
     # If rules are specified, it's because the tool is relying on the UI patterns. If not, it's using the configuration file
     if config.rules != [] and config.rules[1] == '' and config_file_opts != []: #if rules are empty but there's a config file
         command = ['checkov', '-o', 'json', '--quiet', '--skip-download'] + config_file_opts + file_opts
+        if configFileSetsFrameworks(checkov_config):
+            frameworks = None
+        else:
+            frameworks = selectFrameworks(config.files or listFiles(srcDir), ['-c', ''])
     else: # if there are rules
         command = ['checkov', '-o', 'json', '--quiet', '--skip-download'] + config.rules + file_opts
+        frameworks = selectFrameworks(config.files or listFiles(srcDir), config.rules)
 
-    process = Popen(
+    if frameworks == []:
+        return []
+    if frameworks is not None:
+        command = command + ['--framework', ','.join(frameworks)]
+
+    global checkovProcess
+    checkovProcess = Popen(
         command,
         stdout=PIPE,
         cwd=srcDir,
         env=processEnv
     )
 
-    stdout = process.communicate()[0]
+    stdout = checkovProcess.communicate()[0]
 
     if len(stdout) > 0:
         return json.loads(stdout.decode('utf-8'))
